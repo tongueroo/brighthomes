@@ -37,7 +37,7 @@ function MM_swapImage() { //v3.0
 
 </head>
 
-<body onload="MM_preloadImages('images/cbt_fallsb.png','images/nav_01.gif','images/nav_02.gif','images/nav_03.gif','images/cbt_tbellab.png','images/cbt_bonitab.png','images/cbt_cimarronb.png','images/nav_04.gif','images/nav_05.gif')">
+<body onload="MM_preloadImages('images/cbt_fallsb.png','images/nav_01.gif','images/nav_02.gif','images/nav_03.gif','images/cbt_tbellab.png','images/cbt_bonitab.png','images/cbt_cimarronb.png','images/nav_04.gif','images/nav_05.gif','images/moveinhomes_down.png')">
 <div id="container">
 	<div id="header">
     	<div id="logo">
@@ -89,7 +89,15 @@ function MM_swapImage() { //v3.0
             <img src="images/cbt_cimarron.png" alt="Cimarron" border="0" id="Image9" onmouseover="MM_swapImage('Image9','','images/cbt_cimarronb.png',1)" onmouseout="MM_swapImgRestore()" />    </div>
             
             
-    <div id="rightcontent"></div>
+    <div id="rightcontent">
+	  <div id="rightselection">
+       		  <div class="clearbt1"><a href="#"><img src="images/clearbt.png" border="0" /></a></div>
+              <div class="clearbt2"><a href="#"><img src="images/clearbt.png" border="0" /></a></div>
+              <div class="clearbt3"><a href="#"><img src="images/clearbt.png" border="0" /></a></div>
+      </div>
+            <div id="moveinbt"><img src="images/moveinhomes_up.png" alt="Move-in Ready Homes" id="Image1" onmouseover="MM_swapImage('Image1','','images/moveinhomes_down.png',1)" onmouseout="MM_swapImgRestore()" /></div>
+    
+    </div>
     
     
              <div class="clearfix"></div>

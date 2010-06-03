@@ -137,17 +137,42 @@ h2 {
 
 
 #maincontent #rightcontent {
-	width: 360px;
-	padding-top: 60px;
+	width: 370px;
+	padding-top: 15px;
 	padding-right: 25px;
-	padding-bottom: 25px;
-	padding-left: 25px;
-	background-image: url(../images/rightcol.png);
+	padding-left: 15px;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	margin-top: 0px;
 	float: right;
 	height: 170px;
+}
+#rightselection {
+	background-image: url(../images/featuredbts.png);
+	height: 184px;
+	width: 373px;
+}
+.clearbt1 {
+	width: 113px;
+	float: left;
+	padding-top: 100px;
+	padding-left: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.clearbt2 {
+	width: 118px;
+	float: left;
+	padding-top: 100px;
+	padding-left: 10px;
+}
+.clearbt3 {
+	float: right;
+	width: 110px;
+	padding-top: 100px;
+	padding-left: 10px;
 }
 
 
@@ -254,13 +279,15 @@ h2 {
 	padding-top: 60px;
 	padding-right: 25px;
 	padding-bottom: 25px;
-	padding-left: 25px;
 	background-image: url(../images/rightcol.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	margin-top: 0px;
 	float: right;
 	height: 170px;
+}
+#moveinbt {
+	padding-top: 10px;
 }
 #homestyles_container {
 	width: 100%;
