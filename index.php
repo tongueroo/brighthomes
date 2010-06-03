@@ -30,6 +30,11 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
+
+<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/javascripts/switch_out.js"></script>
+            
+
 </head>
 
 <body onload="MM_preloadImages('images/cbt_fallsb.png','images/nav_01.gif','images/nav_02.gif','images/nav_03.gif','images/cbt_tbellab.png','images/cbt_bonitab.png','images/cbt_cimarronb.png','images/nav_04.gif','images/nav_05.gif')">
