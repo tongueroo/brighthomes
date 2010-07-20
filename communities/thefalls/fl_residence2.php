@@ -67,10 +67,8 @@
 							<div id="demo">
 								<img class="floor" id="floor1" src="../../images/floorplan/floor1.png" /> 
 								<img class="floor" id="floor2" src="../../images/floorplan/floor2.png" /> 
-								<!-- option for first floor--> 
 								<img class="option_floor1" id="option_floor1-super_family_bedroom" src="../../images/floorplan/option_super_family_bedroom.png" /> 
-								<!-- option for second floor--> 
-								<img class="option_floor2" id="option_floor2-bedroom5" src="../../images/floorplan/option_bedroom5.png" /> 
+								<img class="option_floor1" id="option_floor1-bedroom5" src="../../images/floorplan/option_bedroom5.png" /> 
 								<img class="option_floor2" id="option_floor2-loft" src="../../images/floorplan/option_loft.png" /> 
 								<!-- homestyles -->
 								<img class="style" id="homestyleA" src="../../images/fl_fallsres2_ea.png" /> 
@@ -82,15 +80,15 @@
 							<div id="controls">
 								<span class="secondlevel">SELECT A FLOOR</span>
 								<div class="flooroption">
-									<a href="#" class="make" rel="floor1">First Floor<br /></a>
-									<a href="#" class="make" rel="floor2">Second Floor</a>
+									<a href="#" id="make-floor1" rel="floor1">First Floor<br /></a>
+									<a href="#" id="make-floor2" rel="floor2">Second Floor</a>
 								</div><span class="secondlevel">SELECT AN OPTION</span>
-								<div class="optionselect">
+								<div class="floor-options floor1-options">
 									<a href="#" class="make checked" rel="optionA">Super Family Room</a><br />
-									<!-- option for first floor-->
-									 <a href="#" class="make" rel="optionB">Bedroom 5</a><br />
-									<!-- option for first floor-->
-									 <a href="#" class="make" rel="optionA2">Loft</a>
+									<a href="#" class="make" rel="optionB">Bedroom 5</a><br />
+								</div>
+								<div class="floor-options floor2-options">
+									<a class="loft" rel="loft">Loft</a>
 									<!-- option for second floor-->
 								</div>
 								<span class="secondlevel">SELECT HOMESTYLE</span>

@@ -23,4 +23,32 @@ $(function() {
     console.log("done");
     event.preventDefault();
   });
+  
+  $('#make-floor1').click(function(event){
+    console.log("make-floor1 clicked %o", this);
+    $('.floor1-options').show();
+    $('.floor2-options').hide();
+    event.preventDefault();
+  });
+  $('#make-floor2').click(function(event){
+    console.log("make-floor2 clicked %o", this);
+    $('.floor1-options').hide();
+    $('.floor2-options').show();
+    event.preventDefault();
+  });
+  
+  $('.loft').click(function(event) {
+    var el = $(this);
+    if (el.hasClass('checked'))
+      el.removeClass('checked');
+    else
+      el.addClass('checked');
+    $('#option_floor2-loft').toggle();
+  });
+  
+  //  for debugging
+  $('.floor1-options').hide();
+  $('.floor2-options').show();
+  $('#floor1').hide();
+  $('#floor2').show();
 });
