@@ -35,13 +35,6 @@
 */
 }
 
-#floor1 {
-  border: none;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
 .option {
 	display: none;
 	position: absolute;
@@ -65,11 +58,6 @@
 	padding-bottom: 20px;
 }
 
-
-.floor {
-  display: none;
-  position: absolute;
-}
 .secondlevel {
 	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
@@ -86,4 +74,26 @@
 .homestyle {
 	padding-top: 5px;
 	padding-bottom: 20px;
+}
+
+
+#floor1, #floor2 {
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#floor2 {
+  display: none;
+}
+.option_floor1 {
+  display:none;
+}
+.option_floor2 {
+  display:none;
+}
+
+.checked {
+  font-size: 800%;
+  background-image: url("../images/icons/checkbox.jpg") left no-repeat; 
 }
