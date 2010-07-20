@@ -10,6 +10,11 @@
 <title>Bright Homes</title>
 <link href="../../scripts/base.css" rel="stylesheet" type="text/css" />
 <link href="../../scripts/secondary.css" rel="stylesheet" type="text/css" />
+<link href="../../scripts/floorplan.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../javascripts/floorplan.js"></script>
+
+
 <script type="text/javascript">
 <!--
 function MM_preloadImages() { //v3.0
@@ -36,17 +41,15 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
+<script src="../../javascripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
 </head>
 
 <body onload="MM_preloadImages('.../../../images///cbt_fallsb.png','.../../../images///nav_02.gif','.../../../images///nav_03.gif','.../../../images///cbt_tbellab.png','.../../../images///cbt_bonitab.png','.../../../images///cbt_cimarronb.png','.../../../images///nav_04.gif','.../../../images///nav_05.gif','../../images/moveinsm_down.png','../../images/nav_01.gif')">
 <div id="container">
-	
   
 <?php include_once("../../includes/headersec.php"); ?>
-  
-  
-  
-      <div class="clearfix"></div>
+  <div class="clearfix"></div>
 
     
   <div id="nav"><a href="#"><img src="../../images///navover_01.gif" width="192" height="32" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','../../images/nav_01.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_02.gif" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','../../images///nav_02.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_03.gif" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','../../images///nav_03.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_04.gif" id="Image4" onmouseover="MM_swapImage('Image4','','../../images///nav_04.gif',1)" onmouseout="MM_swapImgRestore()" /></a><img src="../../images///navover_05.gif" id="Image5" onmouseover="MM_swapImage('Image5','','../../images///nav_05.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
@@ -60,66 +63,64 @@ function MM_swapImage() { //v3.0
   <div id="leftcontent2">
   		<div class="topleftimage"><img src="../../images/sideimage_falls_homestyles.png" width="222" height="358" /></div>
         
-   <?php include_once("../../includes/sidebar_falls.php"); ?>
+<?php include_once("../../includes/sidebar_falls.php"); ?>
       
   </div>
   
   <div id="rightsecholder">
   
-  		<div id="secpagetitle"><img src="../../images/title_homestyles.png" width="459" height="45" alt="A Bright Community - Homestyles" /></div>
+  		<div id="secpagetitle"><img src="../../images/title_homestyles_rs2.png" width="459" height="45" alt="A Bright Community - Homestyles" /></div>
         
         <div id="homestyles_container">
-   		  		<div id="homestyles_col1">
-    			  <div class="homestyle_info"><img src="../../images/falls_1.jpg" width="318" height="179" />
-                 			 <div class="dotted_short"></div>
-                 			 <span class="bold">Residence One | View Floorplan</span><br />
-                 			 From  x,xxx sq.ft. to x,xxx sq. ft.<br />
-           			   Up to x Beds, x Baths<br />
-       			    From $000,000<br />
-           			<div class="dotted_short"></div>
-						</div>
-            
-            			<div class="homestyle_info"><img src="../../images/falls_2.jpg" width="318" height="179" />
-                			<div class="dotted_short"></div>
-                  			<span class="bold">Residence Three | View Floorplan</span><br />
-               				From  x,xxx sq.ft. to x,xxx sq. ft.<br />
-                  			Up to x Beds, x Baths<br />
-               			  From $000,000<br />
-               			  <div class="dotted_short"></div>
-						</div>
-                    
-          		</div>
+        
+        		<div id="floorplan">
+                		<div id="demo">
+							<img id="floor1" src="../../images/falls_fl_01.png" />
+                            <img class="floor" id="floor2" src="../../images/falls_fl_02.png" />
+                            <img class="option" id="optionA" src="../../images/falls_fl_01_a.png" />
+							<img class="option" id="optionB" src="../../images/falls_fl_01_b.png" />
+                            <img class="option2" id="optionA2" src="../../images/falls_fl_02_a.png" /> <!-- option for second floor-->      
+                            
+                            <img class="style" id="homestyleA" src="../../images/fl_fallsres2_ea.png" />
+                            <img class="style" id="homestyleB" src="../../images/fl_fallsres2_eb.png" />
+							<img class="style" id="homestyleC" src="../../images/fl_fallsres2_ec.png" />                                            </div>
                 
-                
-                
-                <div id="homestyles_col2">
-   		    			<div class="homestyle_info"><a href="fl_residence1.php"><img src="../../images/falls_3.jpg" width="318" height="179" border="0" /></a>
-               			  <div class="dotted_short"></div>
-                 			 <span class="bold"><a href="fl_residence1.php">Residence Two | View Floorplan</a></span><br />
-                 			 From  x,xxx sq.ft. to x,xxx sq. ft.<br />
-                 			 Up to x Beds, x Baths<br />
-               			  From $000,000<br />
-                  			<div class="dotted_short"></div>
-						</div>
-            
-<div class="homestyle_info"><img src="../../images/falls_4.jpg" width="318" height="179" />
-                			<div class="dotted_short"></div>
-                  			<span class="bold">Residence Four | View Floorplan</span><br />
-               				From  x,xxx sq.ft. to x,xxx sq. ft.<br />
-                  			Up to x Beds, x Baths<br />
-               			  From $000,000<br />
-                  			<div class="dotted_short"></div>
-						</div>              
                 </div>
-        
-        
+                
+                
+                <div id="floorplanoptions">
+                	<div id="controls">
+                    
+                      <span class="secondlevel">SELECT A FLOOR</span>
+                        
+                        <div class="flooroption">
+							<a href="#" class="make" rel="floor1" >First Floor<br />
+							</a><a href="#" class="make" rel="floor2">Second Floor</a>
+                         </div>
+                         
+                         
+                      <span class="secondlevel">SELECT AN OPTION</span>   
+					  <div class="optionselect">
+						<a href="#" class="make" rel="optionA">Super Family Room</a><br /><!-- option for first floor-->
+						<a href="#" class="make" rel="optionB">Bedroom 5</a><br /><!-- option for first floor-->
+                       	<a href="#" class="make" rel="optionA2">Loft</a><!-- option for second floor-->        
+                      </div>
+                       
+                       <span class="secondlevel">SELECT HOMESTYLE</span> 
+                       <div class="homestyle">
+                        <a href="#" class="make" rel="homestyleA"><img src="../../images/fl_fallsres2_ea_sm.png" height="62" class="homestyle" /></a>
+                        <a href="#" class="make" rel="homestyleB"><img src="../../images/fl_fallsres2_eb_sm.png" height="62" class="homestyle" /></a>
+                        <a href="#" class="make" rel="homestyleC"><img src="../../images/fl_fallsres2_ec_sm.png" height="62" class="homestyle" /></a>     
+                       </div>
+ 
+					</div>
+ 
+                <img src="../../images/dotted_floorplans.png" width="215" height="3" style="padding-bottom:5px" />
+                <img src="../../images/printbrochure.png" />
+                </div>
+   		  		
+          
         </div>
-  
-  
-  
-  
-  
-  
   </div>
             
             

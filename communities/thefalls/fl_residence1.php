@@ -10,6 +10,8 @@
 <title>Bright Homes</title>
 <link href="../../scripts/base.css" rel="stylesheet" type="text/css" />
 <link href="../../scripts/secondary.css" rel="stylesheet" type="text/css" />
+
+
 <script type="text/javascript">
 <!--
 function MM_preloadImages() { //v3.0
@@ -36,17 +38,14 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
+<script src="../../javascripts/AC_RunActiveContent.js" type="text/javascript"></script>
 </head>
 
 <body onload="MM_preloadImages('.../../../images///cbt_fallsb.png','.../../../images///nav_02.gif','.../../../images///nav_03.gif','.../../../images///cbt_tbellab.png','.../../../images///cbt_bonitab.png','.../../../images///cbt_cimarronb.png','.../../../images///nav_04.gif','.../../../images///nav_05.gif','../../images/moveinsm_down.png','../../images/nav_01.gif')">
 <div id="container">
-	
   
 <?php include_once("../../includes/headersec.php"); ?>
-  
-  
-  
-      <div class="clearfix"></div>
+  <div class="clearfix"></div>
 
     
   <div id="nav"><a href="#"><img src="../../images///navover_01.gif" width="192" height="32" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','../../images/nav_01.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_02.gif" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','../../images///nav_02.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_03.gif" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','../../images///nav_03.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_04.gif" id="Image4" onmouseover="MM_swapImage('Image4','','../../images///nav_04.gif',1)" onmouseout="MM_swapImgRestore()" /></a><img src="../../images///navover_05.gif" id="Image5" onmouseover="MM_swapImage('Image5','','../../images///nav_05.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
@@ -60,66 +59,24 @@ function MM_swapImage() { //v3.0
   <div id="leftcontent2">
   		<div class="topleftimage"><img src="../../images/sideimage_falls_homestyles.png" width="222" height="358" /></div>
         
-   <?php include_once("../../includes/sidebar_falls.php"); ?>
+<?php include_once("../../includes/sidebar_falls.php"); ?>
       
   </div>
   
   <div id="rightsecholder">
   
-  		<div id="secpagetitle"><img src="../../images/title_homestyles.png" width="459" height="45" alt="A Bright Community - Homestyles" /></div>
+  		<div id="secpagetitle"><img src="../../images/title_homestyles_rs2.png" width="459" height="45" alt="A Bright Community - Homestyles" /></div>
         
         <div id="homestyles_container">
-   		  		<div id="homestyles_col1">
-    			  <div class="homestyle_info"><img src="../../images/falls_1.jpg" width="318" height="179" />
-                 			 <div class="dotted_short"></div>
-                 			 <span class="bold">Residence One | View Floorplan</span><br />
-                 			 From  x,xxx sq.ft. to x,xxx sq. ft.<br />
-           			   Up to x Beds, x Baths<br />
-       			    From $000,000<br />
-           			<div class="dotted_short"></div>
-						</div>
-            
-            			<div class="homestyle_info"><img src="../../images/falls_2.jpg" width="318" height="179" />
-                			<div class="dotted_short"></div>
-                  			<span class="bold">Residence Three | View Floorplan</span><br />
-               				From  x,xxx sq.ft. to x,xxx sq. ft.<br />
-                  			Up to x Beds, x Baths<br />
-               			  From $000,000<br />
-               			  <div class="dotted_short"></div>
-						</div>
-                    
-          		</div>
-                
-                
-                
-                <div id="homestyles_col2">
-   		    			<div class="homestyle_info"><a href="fl_residence1.php"><img src="../../images/falls_3.jpg" width="318" height="179" border="0" /></a>
-               			  <div class="dotted_short"></div>
-                 			 <span class="bold"><a href="fl_residence1.php">Residence Two | View Floorplan</a></span><br />
-                 			 From  x,xxx sq.ft. to x,xxx sq. ft.<br />
-                 			 Up to x Beds, x Baths<br />
-               			  From $000,000<br />
-                  			<div class="dotted_short"></div>
-						</div>
-            
-<div class="homestyle_info"><img src="../../images/falls_4.jpg" width="318" height="179" />
-                			<div class="dotted_short"></div>
-                  			<span class="bold">Residence Four | View Floorplan</span><br />
-               				From  x,xxx sq.ft. to x,xxx sq. ft.<br />
-                  			Up to x Beds, x Baths<br />
-               			  From $000,000<br />
-                  			<div class="dotted_short"></div>
-						</div>              
-                </div>
-        
-        
+   		  		
+          <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','672','height','500','src','fl_falls_f1','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','fl_falls_f1' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="672" height="500">
+                 <param name="movie" value="fl_falls_f1.swf" />
+                 <param name="quality" value="high" />
+                 <embed src="fl_falls_f1.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="672" height="500"></embed>
+          </object></noscript>
         </div>
-  
-  
-  
-  
-  
-  
   </div>
             
             

@@ -138,7 +138,7 @@ h2 {
 
 #maincontent #rightcontent {
 	width: 370px;
-	padding-top: 15px;
+	padding-top: 25px;
 	padding-right: 25px;
 	padding-left: 15px;
 	background-repeat: no-repeat;
@@ -149,7 +149,7 @@ h2 {
 }
 #rightselection {
 	background-image: url(../images/featuredbts.png);
-	height: 184px;
+	height: 175px;
 	width: 373px;
 }
 .clearbt1 {
@@ -211,10 +211,6 @@ h2 {
 #leftcontent2 {
 	width: 202px;
 	float: left;
-	background-image: url(../images/sideimage_homestyles.jpg);
-	background-repeat: no-repeat;
-	padding-top: 360px;
-	padding-left: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 18px;
@@ -306,12 +302,14 @@ h2 {
 	padding-bottom: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	color: #333333;
+	color: #595959;
 	line-height: 20px;
 }
+
+
 .bold {
 	font-weight: bold;
-	color: #0B264F;
+	color: #024073;
 }
 .dotted_short {
 	height: 3px;
@@ -320,4 +318,17 @@ h2 {
 	background-image: url(../images/dotted_homestyles.png);
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.bold_grey {
+	font-weight: bold;
+}
+a:link {
+	color: #024073;
+	text-decoration: underline;
+}
+a:visited {
+	color: #024073;
+}
+.homestyle_info .bold a {
+	text-decoration: none;
 }
