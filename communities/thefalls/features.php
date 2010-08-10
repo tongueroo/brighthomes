@@ -1,14 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<?php $thisPage="features"; ?>
+<?php $thisSecPage="features"; ?>
+<?php $thisPage="ourcommunities"; ?>
 
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Bright Homes</title>
-<link href="../../scripts/base.css" rel="stylesheet" type="text/css" />
-<link href="../../scripts/secondary.css" rel="stylesheet" type="text/css" />
+<?php include_once("../../includes/psecheader.php"); ?>   
 <script type="text/javascript">
 <!--
 function MM_preloadImages() { //v3.0
@@ -43,8 +40,7 @@ function MM_swapImage() { //v3.0
   <div class="clearfix"></div>
 
     
-  <div id="nav"><a href="#"><img src="../../images///navover_01.gif" width="192" height="32" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','../../images/nav_01.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_02.gif" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','../../images///nav_02.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_03.gif" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','../../images///nav_03.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_04.gif" id="Image4" onmouseover="MM_swapImage('Image4','','../../images///nav_04.gif',1)" onmouseout="MM_swapImgRestore()" /></a><img src="../../images///navover_05.gif" id="Image5" onmouseover="MM_swapImage('Image5','','../../images///nav_05.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
-
+ <?php include_once("../../includes/nav.php"); ?>
 
 
 	<?php include_once("../../includes/secnav.php"); ?>
@@ -64,16 +60,39 @@ function MM_swapImage() { //v3.0
   		<div id="secpagetitle"><img src="../../images/title_features.png" width="459" height="45" alt="A Bright Community - Homestyles" /></div>
         
         <div id="homestyles_container">
-   		  		<div id="homestyles_col1">
+       	  <div id="specialfeatures">
+              <p><span class="secondarylevel">Take a Closer Look...</span><br />
+                <span class="bold2">at these special included features</span></p>
+            
+      <ul>
+                <li><a href="#">Feature 1                </a></li>
+                <li><a href="#">Feature 2</a></li>
+                <li><a href="#">Feature 3</a></li>
+                <li><a href="#">Feature 4</a></li>
+                <li><a href="#">Feature 5</a></li>
+                <li><a href="#">Feature 6</a></li>
+                <li><a href="#">Feature 7</a></li>
+                <li><a href="#">Feature 8</a></li>
+                <li><a href="#">Feature 9</a></li>
+                <li><a href="#">Feature 10</a></li>
+              </ul>
+              <p>&nbsp;</p>
+            </div>
+            <div id="featuredimage"><img src="../../images/falls_feature1.jpg" width="318"  />
+           		<p>&nbsp;</p>
+            </div>
+        
+        <div class="clearfix"></div>
+<div id="homestyles_col1">
     			  <div class="homestyle_info">
     			    <div class="dotted_short"></div>
                  			 <span class="thirdlevel">Stylish Architecture Elevations</span>
                               <div class="dotted_short"></div>
                  			  <ul>
-                 			    <li>Four distinctly stylish elevations with charac<span class="homestyle_info">ter rich exterior architeture featuring stone, brick &amp; tile accents</span></li>
-               			        <li class="homestyle_info">Landscaped front yards with automatic sprinklers</li>
-               			        <li class="homestyle_info">Rear &amp; side yard fencing</li>
-               			        <li><span class="homestyle_info">Distinctive front doors that enhance architectural detai</span>l</li>
+                 			    <li>Four distinctly stylish elevations with character rich exterior architeture featuring stone, brick &amp; tile accents</li>
+               			        <li>Landscaped front yards with automatic sprinklers</li>
+               			        <li>Rear &amp; side yard fencing</li>
+               			        <li>Distinctive front doors that enhance architectural detail</li>
                			        <li>Charming carriage-style garage doors</li>
                			        <li>Pre-wired for garage door openers</li>
                			        <li>Monier Lifetile rolled concrete tile &amp; Owens Corning Oakridge® Pro 30-year composition shigle roofs </li>

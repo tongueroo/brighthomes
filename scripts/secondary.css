@@ -106,6 +106,7 @@
 	padding-right: 15px;
 	float: left;
 	width: 380px;
+	padding-bottom: 35px;
 }
 .homephoto {
 	width: 318px;
@@ -118,7 +119,7 @@
 
 
 
-  #navbar2 {
+#navbar2 {
 	font-size: 13px;
 	line-height: 13px;
 	font-family: Helvetica, Arial;
@@ -140,7 +141,7 @@
 	list-style-type: none;
   }
   #navbar2 li a {
-	color: #d9d9d9;
+	color: #cccc33;
 	float: left;
 	text-decoration: none;
 	padding-top: 10px;
@@ -148,7 +149,7 @@
   }
   #navbar2 li a:hover,
   #navbar2 li.current_page_item a {
-	color: #cccc33;
+	color: #FFFFFF;
   }
     #navbar2 a.overview {
 	width: 110px;
@@ -172,30 +173,127 @@
     #navbar2 li a.overview:hover,
     #nav li.current_page_item a.overview {
       background: url(images/home_nav.png) no-repeat 50% 100%;
-	  color: #cccc33;
+	  color: #FFFFFF;
     }
     #navbar2 li a.homestyles:hover,
     #navbar2 li.current_page_item a.homestyles {
       background: url(images/art_nav.png) no-repeat 50% 100%;
-	  color: #cccc33;
+	  color: #FFFFFF;
     }
     #navbar2 li a.features:hover,
     #navbar2 li.current_page_item a.features {
       background: url(images/fashion_nav.png) no-repeat 50% 100%;
-	  color: #cccc33;
+	  color: #FFFFFF;
     }
     #navbar2 li a.contact:hover,
     #navbar2 li.current_page_item a.contact {
       background: url(images/lifestyle_nav.png) no-repeat 50% 100%;
-	  color: #cccc33;
+	  color: #FFFFFF;
     }
     #navbar2 li a.new:hover,
     #navbar2 li.current_page_item a.new {
       background: url(images/design_nav.png) no-repeat 50% 100%;
-	  color: #cccc33;
+	  color: #FFFFFF;
     }
 
-    
+
+    #navbar2 a.history {
+	width: 110px;
+	
+    }
+    #navbar2 a.philosophy {
+	width: 118px;
+    }
+    #navbar2 a.customerservice {
+	width: 160px;
+
+    }
+    #navbar2 a.satisfaction {
+	width: 140px;
+
+    }
+ 
+ 
+    #navbar2 a.newvsresale {
+	width: 160px;
+    }
+    #navbar2 a.firsttime {
+	width: 160px;
+
+    }
+    #navbar2 a.brightgreen {
+	width: 120px;
+
+    }
+	
+	#navbar2 a.customerserviceform {
+	width: 200px;
+
+    }
+    #navbar2 a.documents {
+	width: 120px;
+
+    }
+ 
+ 	#navbar2 a.communitynews {
+	width: 200px;
+
+    }
+    #navbar2 a.moveinready {
+	width: 120px;
+
+    }
+
+
+
 .leftcopy {
 	padding-left: 20px;
+}
+
+#leftcopy {
+	padding-top: 20px;
+}
+
+#specialfeatures ul {
+	color: #666666;
+}
+
+#specialfeatures ul a {
+	color: #666666;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+.secondarylevel {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #295202;
+	font-weight: bold;
+}
+#specialfeatures {
+	float: left;
+	width: 318px;
+}
+#featuredimage {
+	float: right;
+	padding-top: 20px;
+}
+#nav_third a {
+	text-decoration: none;
+}
+#nav_third a:hover {
+	color: #285100;
+}
+
+#nav_third a:visited {
+	color: #024073;
+}
+#communitylogo {
+	width: 240px;
+	float: left;
+	height: 100px;
+	padding-top: 15px;
+}
+#communityinfo {
+	padding-top: 15px;
 }

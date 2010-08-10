@@ -1,0 +1,78 @@
+
+.menu {
+	position: relative;
+	width: 1000px;
+	height: 750px;
+	overflow: hidden;
+	clear:both;
+	margin-left:-40px;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 750px;
+	width: 2000px;
+	
+	}
+
+.menu ul li {
+	float: left;
+}
+
+.menu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 1px solid #999999;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:99px;
+	height: 750px;
+}
+
+.menu ul li.about a {
+	background: url(../images/menu_about.jpg) repeat scroll 0%;
+}
+
+.menu ul li.services a {
+	background: url(../images/menu_services.jpg) repeat scroll 0%;
+}
+.menu ul li.ourwork a {
+	background: url(../images/menu_ourwork.jpg) repeat scroll 0%;
+}
+
+.menu ul li.news a {
+	background: url(../images/menu_news.jpg) repeat scroll 0%;
+	min-width:670px;
+	
+}
+
+
+.menu ul li.about a .rollover {
+	background: url(../images/menu_aboutb.jpg) repeat scroll 0%;
+}
+
+.menu ul li.services a .rollover {
+	background: url(../images/menu_servicesb.jpg) repeat scroll 0%;
+}
+.menu ul li.ourwork a .rollover {
+	background: url(../images/menu_ourworkb.jpg) repeat scroll 0%;
+}
+
+.menu ul li.news a .rollover {
+	background: url(../images/menu_newsb.jpg) repeat scroll 0%;
+	min-width:680px;
+	
+}
+
+
+
+
+
+.clear {
+	clear: both;
+}
+
+

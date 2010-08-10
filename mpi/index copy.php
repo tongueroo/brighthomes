@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Martin Perri</title>
+<link href="scripts/menu.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script><script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
+<style type="text/css">
+body {
+	margin:0;
+	padding:0;
+	color: #333;
+	font: normal 0.6em sans-serif,Arial;
+	background-color: #EDEDED;
+	background-image: url(images/bg1.jpg);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position: center top;
+	width: 100%;
+	overflow: hidden;
+}
+</style>
+<style type="text/css">
+.description {padding-left: 40px;}
+h1 {
+padding-left: 10px;
+font: normal 18px Georgia, "Times New Roman", Times, serif;
+}
+</style>
+<!--[if IE]>
+<style type="text/css">.jimgMenu {position:relative;width:630px;height:200px;overflow:hidden;margin-left:20px;}</style>
+<![endif]-->
+<script type="text/javascript">
+$(document).ready(function () {
+
+  // find the elements to be eased and hook the hover event
+  $('div.menu ul li a').hover(function() {
+    
+    // if the element is currently being animated (to a easeOut)...
+    if ($(this).is(':animated')) {
+      $(this).stop().animate({width: "310px"}, {duration: 450, easing:"easeOutQuad"});
+    } else {
+      // ease in quickly
+      $(this).stop().animate({width: "310px"}, {duration: 400, easing:"easeOutQuad"});
+    }
+  }, function () {
+    // on hovering out, ease the element out
+    if ($(this).is(':animated')) {
+      $(this).stop().animate({width: "78px"}, {duration: 400, easing:"easeInOutQuad"})
+    } else {
+      // ease out slowly
+      $(this).stop('animated:').animate({width: "78px"}, {duration: 450, easing:"easeInOutQuad"});
+    }
+  });
+});
+</script>
+</head>
+<body>
+<div class="menu">
+  <ul>
+    <li class="landscapes"><a href="#nogo">Landscapes</a></li>
+    <li class="people"><a href="#nogo">People</a></li>
+    <li class="nature"><a href="#nogo">Nature</a></li>
+    <li class="abstract"><a href="#nogo">Abstract</a></li>
+    <li class="urban"><a href="#nogo">Urban</a></li>
+  </ul>
+</div>
+<br  style="clear:both"/><br />
+<div class="description">
+<p>A dynamic Menu allowing you to easily navigate any content visually, with a Mootools like effect through the power of Jquery javascript.</p>			
+</div>
+<hr style="width:92%;text-align:center;height:1px;border:1px;color:#e2e2e2;background-color:#e2e2e2;" />
+</body>
+</html>

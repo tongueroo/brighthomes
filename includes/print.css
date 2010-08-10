@@ -1,0 +1,30 @@
+#logo {
+	width: 162px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	background-image: url(../images/brighthomeslogo_print.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#header_right {
+	float: right;
+	font-family: arial;
+	width: 400px;
+	background-image: url(../images/phrase_print.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	height: 75px;
+	padding-bottom: 15px;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: scroll;
+	background-image:none;
+	background-color: #FFFFFF;
+	overflow:auto;
+}

@@ -1,37 +1,64 @@
-@charset "UTF-8";
-#container {
-	width: 500px;
+#logo {
+	width: 0;
+	height: 0;
+	float: left;
+	margin: 0;
+	background-image: url(../images/brighthomeslogo_print.png);
+	background-repeat: no-repeat;
+	background-position: left top;
 }
-#header {
-	background-color: #f4f9e1;
+
+#logoprint {
+	width: 162px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	visibility:visible;
+}
+
+
+
+
+#header_right {
+	float: right;
+	font-family: arial;
+	width: 500px;
+	background-image: none;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	height: 75px;
+	padding-bottom: 15px;
+}
+
+#header_right_image {
+	width: 500px;
+	height: 75px;
+	visibility:visible;
+	padding-top: 40px;
+
+}
+
+
+
+
+
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: scroll;
+	background-image:none;
+	background-color: #FFFFFF;
+	overflow:auto;
+}
+
+
+#topnav {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	line-height: 16px;
-	width: 100%;
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 15px;
-	padding-left: 5px;
-}
-#footer {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: x-small;
-}
-.logo {
-	float: left;
-	padding-right: 10px;
-	padding-bottom: 5px;
-}
-.clearfix {
-	overflow: hidden;
-	height: 0px;
-	clear: both;
-}
-#firstfloor {
-	width: 217px;
-	float: left;
-	padding-right: 20px;
-}
-#homestyleselect {
-	padding-bottom: 25px;
+	color: #102B54;
+	padding-top: 10px;
+	float: right;
+	width: 190px;
 }

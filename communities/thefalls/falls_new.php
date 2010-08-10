@@ -1,14 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<?php $thisPage="new"; ?>
+<?php $thisSecPage="news"; ?>
+<?php $thisPage="ourcommunities"; ?>
 
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Bright Homes</title>
-<link href="../../scripts/base.css" rel="stylesheet" type="text/css" />
-<link href="../../scripts/secondary.css" rel="stylesheet" type="text/css" />
+<?php include_once("../../includes/psecheader.php"); ?>   
 <script type="text/javascript">
 <!--
 function MM_preloadImages() { //v3.0
@@ -43,8 +40,7 @@ function MM_swapImage() { //v3.0
   <div class="clearfix"></div>
 
     
- <div id="nav"><a href="#"><img src="../../images///navover_01.gif" width="192" height="32" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','../../images/nav_01.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_02.gif" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','../../images///nav_02.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_03.gif" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','../../images///nav_03.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_04.gif" id="Image4" onmouseover="MM_swapImage('Image4','','../../images///nav_04.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_05.gif" id="Image5" onmouseover="MM_swapImage('Image5','','../../images///nav_05.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
-
+ <?php include_once("../../includes/nav.php"); ?>
 
 
 <?php include_once("../../includes/secnav.php"); ?>
@@ -56,13 +52,7 @@ function MM_swapImage() { //v3.0
   
   <div class="topleftimage"><img src="../../images/sideimage_falls_new.png" width="222" height="358" /></div>
         
-        <div class="leftcopy">
-    <p><span class="bold">Single Family Homes</span><br />
-      Approx. 1,699-2,602 sq. ft.<br />
-      3-4 bedrooms, 2-2.5 baths<br />
-      From the high $200,000's</p>
-      
-   </div>
+ <?php include_once("../../includes/sidebar_falls.php"); ?>
       
   </div>
   
@@ -71,65 +61,49 @@ function MM_swapImage() { //v3.0
   		<div id="secpagetitle"><img src="../../images/title_whatsnew.png" width="459" height="45" alt="A Bright Community - Homestyles" /></div>
         
         <div class="maincopy" id="right_container">
-   		  		<span class="header1">COMMUNITY NEWS &amp; MOVE-IN READY HOMES</span>
-                 <div class="dottedrule"></div>
+   		  		<DIV id="nav_third">
+   		  		  <div align="left"><span class="header1">COMMUNITY NEWS » </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   		  		        <span class="header1"><a href="moveinready.php">MOVE-IN READY HOMES »</a></span>	  		        </div>
+   		  		</DIV>
+   		  		<div class="dottedrule"></div>
                  <div class="homestyle_info" id="rightcontainter_copy_fullwidth"> 
-                   <span class="thirdlevel">New Release of Cul-de-sac Homesties</span><br />
-                     <span class="bold_grey">January 24, 2010</span><br />
-                     <br />
-                     Bright Homes is offering new models at The Falls, Yosemite Vista. The Falls is featuring several contemporary floorplans designed with the casual elegance and sophistication that has come to define California style. </div>
-                 <div id="moveinhomestitle">Move-In Ready Homes</div>
-                
-                <div class="homephoto"><img src="../../images/falls_1.jpg" width="318" height="179" /></div>
-                <div class="homecopy"><span class="bold">Residence One | More about this Home</span><br />
-                  <span class="bold_grey">1338 Sentinel Drive Tracy, CA</span><br />
-                 		 2,003 sq. ft.
-						5 Bedrooms, 4 Baths<br />
-							Price: $336,213<br />
-							<br />
-						<span class="bold_grey">Sales Email</span><br />
-						<a href="mailto:YosemiteVistaSales@Bright-Homes.com">YosemiteVistaSales@Bright-Homes.com</a><br />
-						<span class="bold_grey">Sales Phone</span><br />
-						(209) 836-0307
+                   <p><span class="thirdlevel"><br />
+                   New Release of Cul-de-sac Homesties</span><br />
+                   <span class="bold_grey">January 24, 2010</span></p>
+                     <img src="../../images/falls_01.jpg" width="300" height="200" />
+                     <p>Or ad dit, ver susto dolore modipsuscil in hent wis etum vel ut nummy nullan heniamc onsecte molore dit augait velit wissis non eugait eugue vel dipsum in hendion sectem in ullaor ad do consequat.</p>
+                   <p>Agna feugiam vendigna accum et, sustie velendre commolor accum volutat aut exer sit prat et adiam iriure vero er se dipissectem endre eros deliqui bla faciliquisim delit ilismod igniam auguer in vercillum in ulla feum zzrillan hendre tin vullutet lore faccumsan ent alismodolor sectetue doluptat augiam dit atisit wismodigna acidunt iriusciduis ea feum adionse magnim irit nos dolobortie facidui tat do odio diamcon ullam, quatem zzrilit luptate feum in ullandignibh ent atie vel ilis el dipsustisi.</p>
                  </div>
-
-
-  <div class="clearfix"></div>
+                 
+          <div class="dottedrule"></div>
+                             
+                             
+                             
+                             <div class="homestyle_info" id="rightcontainter_copy_fullwidth"> 
+                               <p><span class="thirdlevel">Ent Atie Vel ilis El</span><br />
+                                 <span class="bold_grey">March 31, 2010</span></p>
+                               <img src="../../images/falls_02.jpg"  />
+                               <p>
+                     Or ad dit, ver susto dolore modipsuscil in hent wis etum vel ut nummy nullan heniamc onsecte molore dit augait velit wissis non eugait eugue vel dipsum in hendion sectem in ullaor ad do consequat. Agna feugiam vendigna accum et, sustie velendre commolor accum volutat aut exer sit prat et adiam iriure vero er se dipissectem endre eros deliqui bla faciliquisim delit ilismod igniam auguer in vercillum in ulla feum.</p>
+                               <p> zzrillan hendre tin vullutet lore faccumsan ent alismodolor sectetue doluptat augiam dit atisit wismodigna acidunt iriusciduis ea feum adionse magnim irit nos dolobortie facidui tat do odio diamcon ullam, quatem zzrilit luptate feum in ullandignibh ent atie vel ilis el dipsustisi.</p>
+                     </div>
+                 
+			                 <div class="dottedrule"></div>
+                             
+                             
+          <div class="homestyle_info" id="rightcontainter_copy_fullwidth"> 
+            <p><span class="thirdlevel">Modipsuscil in Hent</span><br />
+            <span class="bold_grey">May 6, 2010</span></p>
+              <img src="../../images/falls_03.jpg"  /><p>
+            Or ad dit, ver susto dolore modipsuscil in hent wis etum vel ut nummy nullan heniamc onsecte molore dit augait velit wissis non eugait eugue vel dipsum in hendion sectem in ullaor ad do consequat.</p>
+            <p>Agna feugiam vendigna accum et, sustie velendre commolor accum volutat aut exer sit prat et adiam iriure vero er se dipissectem endre eros deliqui bla faciliquisim delit ilismod igniam auguer in vercillum in ulla feum zzrillan hendre tin vullutet lore faccumsan ent alismodolor sectetue doluptat augiam dit atisit wismodigna acidunt iriusciduis ea feum adionse magnim irit nos dolobortie facidui tat do odio diamcon ullam, quatem zzrilit luptate feum in ullandignibh ent atie vel ilis el dipsustisi.</p>
+          </div>
+                 
 			                 <div class="dottedrule"></div>
                              
                              
  
-                <div class="homephoto"><img src="../../images/falls_3.jpg" width="318" height="179" /></div>
-                <div class="homecopy"><span class="bold">Residence Three | More about this Home</span><br />
-                  <span class="bold_grey">1338 Sentinel Drive Tracy, CA</span><br />
-                 		 xxxx sq. ft.
-						5 Bedrooms, 4 Baths<br />
-							Price: $xxxxxx<br />
-							<br />
-						<span class="bold_grey">Sales Email</span><br />
-						<a href="mailto:YosemiteVistaSales@Bright-Homes.com">YosemiteVistaSales@Bright-Homes.com</a><br />
-						<span class="bold_grey">Sales Phone</span><br />
-						(209) 836-0307
-                 </div>
-                 
-                   <div class="clearfix"></div>
-                                <div class="dottedrule"></div>
-                             
-                             
-                             
-                <div class="homephoto"><img src="../../images/falls_1.jpg" width="318" height="179" /></div>
-                <div class="homecopy"><span class="bold">Residence One | More about this Home</span><br />
-                  <span class="bold_grey">1338 Sentinel Drive Tracy, CA</span><br />
-                 		 2,003 sq. ft.
-						5 Bedrooms, 4 Baths<br />
-							Price: $336,213<br />
-							<br />
-						<span class="bold_grey">Sales Email</span><br />
-						<a href="mailto:YosemiteVistaSales@Bright-Homes.com">YosemiteVistaSales@Bright-Homes.com</a><br />
-						<span class="bold_grey">Sales Phone</span><br />
-						(209) 836-0307
-                 </div>
-
+              
 
 
 			  

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: #000000;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+
+
+.clearfix {
+	overflow: hidden;
+	height: 0px;
+	clear: both;
+}
+
+
+#page {
+	z-index: 2;
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	padding: 0px;
+	font-size: 12px;
+	color: #AAAAAA;
+	height: 100%;
+    }
+#navigation {
+	width: 960px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#navigation #navleft {
+	float: left;
+}
+#navigation #navright {
+	float: right;
+	padding-top: 80px;
+	padding-right: 15px;
+}
+
+
+
+#introbox {
+	height: 140px;
+	width: 395px;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+	text-align: left;
+	background-image: url(../images/inquire.png);
+	background-repeat: no-repeat;
+	font-style: normal;
+	font-weight: normal;
+	bottom: 40px;
+	position: absolute;
+	right: 70px;
+}
+
+#content {
+	width: 910px;
+	background-image: url(../images/tbg.png);
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 19px;
+	color: #333333;
+	padding: 25px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+#leftcontent {
+	width: 670px;
+	float: left;
+}
+#rightcontent {
+	float: right;
+	width: 240px;
+}
+
+#container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+}
+#topbar {
+	height: 100px;
+	width: 100%;
+	background-color: #000000;
+}

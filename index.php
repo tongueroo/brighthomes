@@ -1,11 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Bright Homes</title>
-<link href="scripts/base.css" rel="stylesheet" type="text/css" />
 
 
+<?php include_once("includes/pheader.php"); ?>   
 
 
 
@@ -71,17 +68,16 @@ function MM_swapImage() { //v3.0
 	
     
 <?php include_once("includes/header.php"); ?>    
+
+
     
     
     
       <div class="clearfix"></div>
 
     
-  <div id="nav"><a href="#"><img src="images/navover_01.gif" width="192" height="32" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','images/nav_01.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="images/navover_02.gif" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','images/nav_02.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="images/navover_03.gif" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','images/nav_03.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="images/navover_04.gif" id="Image4" onmouseover="MM_swapImage('Image4','','images/nav_04.gif',1)" onmouseout="MM_swapImgRestore()" /></a><img src="images/navover_05.gif" id="Image5" onmouseover="MM_swapImage('Image5','','images/nav_05.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
-
-
-
-  <div id="headerimage"><img src="images/headerhome.jpg" /></div>
+<?php include_once("includes/homenav.php"); ?>
+<div id="headerimage"><img src="images/headerhome.jpg" /></div>
     
     
     
@@ -90,14 +86,14 @@ function MM_swapImage() { //v3.0
         	<p class="maincopy">Lutat augiam, vendiam etummodipit lut in er sit adigna faci exer sumsan vel eril dolore ming ex ea faciliquis nulput nulla faci bla feummy nonsecte tisim iureet amet, vel ulput dolore dolore ming eros dolortin exercip etummy nullupt ationse dit lor ilismol oboreet nulluptat. Delenit alisim do odit ad tat num.</p>
       </div>
       
-          	<div id="middlecontent"><a href="communities/thefalls/overview.php">
+          	<div id="middlecontent"><a href="communities/falls_overview.php">
 
 <img src="images/cbt_falls.png" name="sub1" border="0" onmouseover="MM_swapImage('sub1','','images/cbt_fallsb.png','sub2','','images/featured_falls.png',1)" onmouseout="MM_swapImgRestore()" /></a>
 
 
-              <a href="#"><img src="images/cbt_tbella.png" alt="Terra Bella" name="sub3" border="0" id="Image7" onmouseover="MM_swapImage('sub3','','images/cbt_tbellab.png','sub2','','images/featured_terrabella.png',1)" onmouseout="MM_swapImgRestore()" /></a>
-              <a href="#"><img src="images/cbt_bonita.png" alt="Bonita Ranch" name="sub4" border="0" id="Image8" onmouseover="MM_swapImage('sub4','','images/cbt_bonitab.png','sub2','','images/featured_bonita.png',1)" onmouseout="MM_swapImgRestore()" /></a>
-            <img src="images/cbt_cimarron.png" alt="Cimarron" name="sub5" border="0" id="Image9" onmouseover="MM_swapImage('Image9','','images/cbt_cimarronb.png',1);MM_swapImage('sub5','','images/cbt_cimarronb.png','sub2','','images/featured_cimmaron.png',1)" onmouseout="MM_swapImgRestore()" />    </div>
+              <a href="communities/terrabella_overview.php"><img src="images/cbt_tbella.png" alt="Terra Bella" name="sub3" border="0" id="Image7" onmouseover="MM_swapImage('sub3','','images/cbt_tbellab.png','sub2','','images/featured_terrabella.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+              <a href="communities/bonitaranch_overview.php"><img src="images/cbt_bonita.png" alt="Bonita Ranch" name="sub4" border="0" id="Image8" onmouseover="MM_swapImage('sub4','','images/cbt_bonitab.png','sub2','','images/featured_bonita.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+              <a href="communities/cimarron_overview.php"><img src="images/cbt_cimarron.png" alt="Cimarron" name="sub5" border="0" id="Image9" onmouseover="MM_swapImage('Image9','','images/cbt_cimarronb.png',1);MM_swapImage('sub5','','images/cbt_cimarronb.png','sub2','','images/featured_cimmaron.png',1)" onmouseout="MM_swapImgRestore()" /></a> </div>
             
             
     <div id="rightcontent">
@@ -108,22 +104,7 @@ function MM_swapImage() { //v3.0
     
     
              <div class="clearfix"></div>
-  </div>
+  
     
-     <div id="footer">
-<div id="copyright">© 2010 Bright Homes<br />
-Site Designed by <a href="http://www.robertanthony.com" target="_blank">Robert Anthony</a></div>
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-</body>
-</html>
+   </div>
+<?php include_once("includes/footer.php"); ?>  

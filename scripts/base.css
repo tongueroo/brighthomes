@@ -24,6 +24,8 @@ body {
 	overflow:auto;
 }
 
+
+
 img {
 	border: 0;
 }
@@ -46,6 +48,19 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: left top;
 }
+
+#logoprint {
+	width: 0px;
+	height: 0px;
+	float: left;
+	margin: 0;
+	visibility:hidden;
+	
+}
+
+
+
+
 #header_right {
 	float: right;
 	font-family: arial;
@@ -55,13 +70,101 @@ h2 {
 	background-repeat: no-repeat;
 	height: 75px;
 	padding-bottom: 15px;
+	
 }
-#nav {
+#header_right_image {
+	width: 0px;
+	height: 0px;
+	visibility:hidden;
+
+}
+
+
+
+  #nav_main li {
+    display: inline;
+	list-style-type: none;
+  }
+  #nav_main li a {
+	color: #003366;
+	float: left;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 8px;
+  }
+  #nav_main li a:hover,
+  #nav_main li.current_page_item a {
+	color: #FFFFFF;
+  }
+    #nav_main a.aboutbright {
+	width: 192px;
+	
+    }
+    #nav_main a.ourcommunities {
+	width: 192px;
+    }
+    #nav_main a.buyingandfinancing {
+	width: 192px;
+
+    }
+    #nav_main a.newsandoffers {
+	width: 192px;
+
+    }
+    #nav_main a.homeowners {
+	width: 192px;
+
+    }
+    #nav_main li a.aboutbright:hover,
+    #nav_main li.current_page_item a.overview {
+	  color: #FFFFFF;
+    }
+    #nav_main li a.ourcommunities:hover,
+    #nav_main li.current_page_item a.homestyles {
+	  color: #FFFFFF;
+    }
+    #nav_main li a.buyingandfinancing:hover,
+    #nav_main li.current_page_item a.features {
+	  color: #FFFFFF;
+    }
+    #nav_main li a.newsandoffers:hover,
+    #nav_main li.current_page_item a.contact {
+	  color: #FFFFFF;
+    }
+    #nav_main li a.homeowners:hover,
+    #nav_main li.current_page_item a.new {
+	  color: #FFFFFF;
+    }
+
+#nav_main { 
 	margin: 0px;
 	width: 100%;
 	padding: 0px;
-	clear: none;
+	font-size: 15px;
+	font-family: Arial, Helvetica, san-serif;
+	font-weight: bold;
+	text-align: center;
+	
 }
+
+#nav {
+	height: 37px;
+	background-image:url(../images/navbg.png);
+	background-repeat:repeat-y;
+	background-color: #285100;
+	margin: 0px;
+	letter-spacing: .08em;
+}
+
+
+
+
+
+
+
+
+
+
 
 #logo h2{
 	text-indent: -10000px;
@@ -180,14 +283,22 @@ h2 {
 	width: 100%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10px;
-	color: #004B8D;
-	overflow: hidden;
+	color: #1D3961;
 	background-image: url(../images/footer.gif);
 	height: 72px;
 }
 
-#footer a {
+#footerlogos {
+	width: 500px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
 	color: #004B8D;
+	height: 72px;
+	float: left;
+}
+
+#footer a {
+	color: #1D3961;
 	text-decoration: none;
 }
 #footer a:hover {
@@ -207,6 +318,10 @@ h2 {
 	background-color: #FFFFFF;
 	background-image: url(../images/secpagebg.gif);
 	background-repeat: repeat-y;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666666;
+	font-size: 14px;
+	line-height: 20px;
 }
 #leftcontent2 {
 	width: 202px;
@@ -288,6 +403,10 @@ h2 {
 #homestyles_container {
 	width: 100%;
 	padding-top: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666666;
+	font-size: 14px;
+	line-height: 20px;
 }
 #homestyles_col1 {
 	float: left;
@@ -331,4 +450,8 @@ a:visited {
 }
 .homestyle_info .bold a {
 	text-decoration: none;
+}
+.smallnote {
+	font-size: 9px;
+	font-weight: bold;
 }

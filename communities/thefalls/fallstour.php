@@ -2,13 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 
-<?php $thisPage="overview"; ?>
+<?php $thisSecPage="overview"; ?>
+<?php $thisPage="ourcommunities"; ?>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Bright Homes</title>
-<link href="../../scripts/base.css" rel="stylesheet" type="text/css" />
-<link href="../../scripts/secondary.css" rel="stylesheet" type="text/css" />
+<?php include_once("../../includes/psecheader.php"); ?>   
 <script type="text/javascript">
 <!--
 function MM_preloadImages() { //v3.0
@@ -44,8 +41,7 @@ function MM_swapImage() { //v3.0
   <div class="clearfix"></div>
 
     
- <div id="nav"><a href="#"><img src="../../images///navover_01.gif" width="192" height="32" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','../../images/nav_01.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_02.gif" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','../../images///nav_02.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_03.gif" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','../../images///nav_03.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_04.gif" id="Image4" onmouseover="MM_swapImage('Image4','','../../images///nav_04.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="#"><img src="../../images///navover_05.gif" id="Image5" onmouseover="MM_swapImage('Image5','','../../images///nav_05.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
-
+  <?php include_once("../../includes/nav.php"); ?>
 
 
 

@@ -1,0 +1,54 @@
+
+.jimgMenu {
+	position: relative;
+	width: 1000px;
+	height: 750px;
+	overflow: hidden;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 750px;
+	width: 2000px;
+	
+	}
+
+.jimgMenu ul li {
+	float: left;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 1px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:99px;
+	height: 750px;
+}
+
+.jimgMenu ul li.landscapes a {
+	background: url(images/landscapes.jpg) repeat scroll 0%;
+}
+
+
+
+.jimgMenu ul li.nature a {
+	background: url(images/nature.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.abstract a {
+	background: url(images/abstract.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.urban a {
+	background: url(images/urban.jpg) repeat scroll 0%;
+	min-width:670px;
+	
+}
+
+.clear {
+	clear: both;
+}
