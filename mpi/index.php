@@ -13,7 +13,28 @@
 
 
 <script type="text/javascript">
+// preload images
+(function($) {
+  var cache = [];
+  // Arguments are image paths relative to the current page.
+  $.preLoadImages = function() {
+    var args_len = arguments.length;
+    for (var i = args_len; i--;) {
+      var cacheImage = document.createElement('img');
+      cacheImage.src = arguments[i];
+      cache.push(cacheImage);
+    }
+  }
+})(jQuery);
+
 $(document).ready(function () {
+	jQuery.preLoadImages(
+		"images/menu_about-dark.jpg", 
+		"images/menu_news-dark.jpg", 
+		"images/menu_ourwork-dark.jpg", 
+		"images/menu_services-dark.jpg"
+	);
+	
 	// EASING CODE
 	function callback(hovering) {
 		return function() {
