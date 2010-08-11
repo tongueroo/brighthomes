@@ -175,7 +175,16 @@ hr {
 	top:0;
 	width:100px;
 	z-index:100;
-left:0;
+	left:0;
+}
+
+.current_page_item_two a #colorbar_about {
+	background:none repeat scroll 0 0 #8d5917;
+	position:absolute;
+	top:0;
+	width:100px;
+	z-index:100;
+	left:0;
 }
 
 
