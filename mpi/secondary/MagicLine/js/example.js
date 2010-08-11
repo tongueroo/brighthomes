@@ -1,33 +1,38 @@
-$(function(){
 
+
+
+$(function(){
     var $el, leftPos, newWidth,
         $mainNav2 = $("#example-two");
     
-   
-    /*
-        EXAMPLE TWO
-    */
     $mainNav2.append("<li id='magic-line-two'></li>");
     
-    var $magicLineTwo = $("#magic-line-two");
+    // since all the menu items are the same width, can use any of them to do the width calculations
+    var $any_menu_li = $('#example-two li:first');
+    var $any_menu_a  = $('#example-two li:first a');
     
+    var $magicLineTwo = $("#magic-line-two");
     $magicLineTwo
-        .width($(".current_page_item_two").width())
+        .width($any_menu_li.width())
         .height($mainNav2.height())
-        .css("left", $(".current_page_item_two a").position().left)
-        .data("origLeft", $(".current_page_item_two a").position().left)
+        .css("left", $any_menu_a.position().left)
+        .data("origLeft", $any_menu_a.position().left)
         .data("origWidth", $magicLineTwo.width())
-        .data("origColor", $(".current_page_item_two a").attr("rel"));
+        .data("origColor", $any_menu_a.attr("rel"));
+
+		function highlight(element) {
+		  $el = $(element);
+      leftPos = $el.position().left;
+      newWidth = $el.parent().width();
+      $magicLineTwo.stop().animate({
+          left: leftPos,
+          width: newWidth,
+          backgroundColor: $el.attr("rel")
+      });
+		}
                 
     $("#example-two li").find("a").hover(function() {
-        $el = $(this);
-        leftPos = $el.position().left;
-        newWidth = $el.parent().width();
-        $magicLineTwo.stop().animate({
-            left: leftPos,
-            width: newWidth,
-            backgroundColor: $el.attr("rel")
-        })
+      highlight(this);
     }, function() {
         $magicLineTwo.stop().animate({
             left: $magicLineTwo.data("origLeft"),
@@ -35,4 +40,9 @@ $(function(){
             backgroundColor: $magicLineTwo.data("origColor")
         });    
     });
+
+    // preload the highlight based on the .current_page_item_two class
+    if ($(".current_page_item_two a").length > 0)
+      highlight(".current_page_item_two a");
+    
 });

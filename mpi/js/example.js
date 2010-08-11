@@ -7,14 +7,18 @@ $(function(){
     
     $mainNav2.append("<li id='magic-line-two'></li>");
     
+    // since all the menu items are the same width, can use any of them to do the width calculations
+    var $any_menu_li = $('#example-two li:first');
+    var $any_menu_a  = $('#example-two li:first a');
+    
     var $magicLineTwo = $("#magic-line-two");
     $magicLineTwo
-        .width($(".current_page_item_two").width())
+        .width($any_menu_li.width())
         .height($mainNav2.height())
-        .css("left", $(".current_page_item_two a").position().left)
-        .data("origLeft", $(".current_page_item_two a").position().left)
+        .css("left", $any_menu_a.position().left)
+        .data("origLeft", $any_menu_a.position().left)
         .data("origWidth", $magicLineTwo.width())
-        .data("origColor", $(".current_page_item_two a").attr("rel"));
+        .data("origColor", $any_menu_a.attr("rel"));
 
 		function highlight(element) {
 		  $el = $(element);
@@ -38,6 +42,7 @@ $(function(){
     });
 
     // preload the highlight based on the .current_page_item_two class
-    highlight(".current_page_item_two a");
+    if ($(".current_page_item_two a").length > 0)
+      highlight(".current_page_item_two a");
     
 });
