@@ -167,21 +167,9 @@ hr {
 
 
 #example-two li a:hover { color: white; }
-#example-two #magic-line-two  { position: absolute; top: 0; left: 0; width: 100px; z-index: 100; }
+#example-two #magic-line-two { position: absolute; top: 0; left: 0; width: 100px; background: #274967; z-index: 100; }
 
-.current_page_item_two a #colorbar_ourwwork {
-	background:none repeat scroll 0 0 #AB4C20;
-	position:absolute;
-	top:0;
-	width:100px;
-	z-index:100;
-	left:0;
-}
-
-
-.current_page_item_two a { color: white !important; }
-
-
+.current_page_item a { color: white !important; }
 
 
 
@@ -261,13 +249,6 @@ hr {
 	margin-bottom: 11px;
 	margin-left: 0px;
 } 
-
-.serviceslist li {
-	list-style-type: none;
-	margin-left: -25px;
-	color:#afafaf;
-	padding-bottom: 5px;
-}
  
 .serviceslist img{  
 	position: absolute;  
@@ -304,7 +285,7 @@ hr {
 	line-height: 20px; 
 }
 h3{
-	margin: 10px 10px 0 15px;
+	margin: 10px 10px 0 10px;
 	color:#FFF;
 	letter-spacing: 2px;
 	font-weight: normal;

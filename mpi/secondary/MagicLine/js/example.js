@@ -1,6 +1,3 @@
-
-
-
 $(function(){
 
     var $el, leftPos, newWidth,
@@ -13,10 +10,6 @@ $(function(){
     $mainNav2.append("<li id='magic-line-two'></li>");
     
     var $magicLineTwo = $("#magic-line-two");
-	
-	
-	
-	
     
     $magicLineTwo
         .width($(".current_page_item_two").width())
@@ -24,9 +17,7 @@ $(function(){
         .css("left", $(".current_page_item_two a").position().left)
         .data("origLeft", $(".current_page_item_two a").position().left)
         .data("origWidth", $magicLineTwo.width())
-        .data("origColor", $(".current_page_item_two a").attr("rel", "#ab4c20"));
-
-		
+        .data("origColor", $(".current_page_item_two a").attr("rel"));
                 
     $("#example-two li").find("a").hover(function() {
         $el = $(this);

@@ -32,39 +32,47 @@
 	height: 750px;
 }
 
-/*.menu ul li.about a {
-  min-width:670px;
-}
-*/
 .menu ul li.about a {
-	background: url(../images/menu_about-bright.jpg) repeat scroll 0%;
+	background: url(../images/menu_about.jpg) repeat scroll 0%;
 }
 
 .menu ul li.services a {
-	background: url(../images/menu_services-bright.jpg) repeat scroll 0%;
+	background: url(../images/menu_services.jpg) repeat scroll 0%;
 }
 .menu ul li.ourwork a {
-	background: url(../images/menu_ourwork-bright.jpg) repeat scroll 0%;
+	background: url(../images/menu_ourwork.jpg) repeat scroll 0%;
 }
 
 .menu ul li.news a {
-	background: url(../images/menu_news-bright.jpg) repeat scroll 0%;
+	background: url(../images/menu_news.jpg) repeat scroll 0%;
+	min-width:670px;
+	
 }
 
-.menu ul li.about a.dark {
-	background: url(../images/menu_about-dark.jpg) repeat scroll 0%;
+
+.menu ul li.about a .rollover {
+	background: url(../images/menu_aboutb.jpg) repeat scroll 0%;
 }
 
-.menu ul li.services a.dark {
-	background: url(../images/menu_services-dark.jpg) repeat scroll 0%;
+.menu ul li.services a .rollover {
+	background: url(../images/menu_servicesb.jpg) repeat scroll 0%;
 }
-.menu ul li.ourwork a.dark {
-	background: url(../images/menu_ourwork-dark.jpg) repeat scroll 0%;
+.menu ul li.ourwork a .rollover {
+	background: url(../images/menu_ourworkb.jpg) repeat scroll 0%;
 }
-.menu ul li.news a.dark {
-	background: url(../images/menu_news-dark.jpg) repeat scroll 0%;
+
+.menu ul li.news a .rollover {
+	background: url(../images/menu_newsb.jpg) repeat scroll 0%;
+	min-width:680px;
+	
 }
+
+
+
+
 
 .clear {
 	clear: both;
 }
+
+
