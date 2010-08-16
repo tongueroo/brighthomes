@@ -1,6 +1,3 @@
-
-
-
 $(function(){
     var $el, leftPos, newWidth,
         $mainNav2 = $("#example-two");

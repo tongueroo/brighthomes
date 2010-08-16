@@ -1,21 +1,32 @@
+#wrap {
+	margin: 0 auto;
+	width: 960px;
+}
 
 .menu {
+  margin:0;
+  padding:0;
 	position: relative;
 	width: 1000px;
 	height: 750px;
 	overflow: hidden;
 	clear:both;
 	margin-left:-40px;
+/*  background-color: red;*/
+}
+
+.ie .menu {
+  top: 16px;  /* dont now why I need to do this for ie */
 }
 
 .menu ul {
 	list-style: none;
 	margin: 0px;
+	padding: 0px;
 	display: block;
 	height: 750px;
 	width: 2000px;
-	
-	}
+}
 
 .menu ul li {
 	float: left;
@@ -32,23 +43,24 @@
 	height: 750px;
 }
 
+/* for debugging */
 /*.menu ul li.about a {
   min-width:670px;
 }
 */
 .menu ul li.about a {
-	background: url(../images/menu_about-bright.jpg) repeat scroll 0%;
+  background: url(../images/menu_about-bright.jpg) repeat scroll 0%;
 }
 
 .menu ul li.services a {
-	background: url(../images/menu_services-bright.jpg) repeat scroll 0%;
+  background: url(../images/menu_services-bright.jpg) repeat scroll 0%;
 }
 .menu ul li.ourwork a {
-	background: url(../images/menu_ourwork-bright.jpg) repeat scroll 0%;
+  background: url(../images/menu_ourwork-bright.jpg) repeat scroll 0%;
 }
 
 .menu ul li.news a {
-	background: url(../images/menu_news-bright.jpg) repeat scroll 0%;
+  background: url(../images/menu_news-bright.jpg) repeat scroll 0%;
 }
 
 .menu ul li.about a.dark {
