@@ -78,7 +78,7 @@ $(document).ready(function () {
 
 <ul id="header">
 	<li id="logo"><img src="images/spacer.gif" /></li>
-	<li id="inquire"><a href="inquire" class="inquire_over">INQUIRE</a></li>
+	<li id="inquire"><a href="secondary/inquire.php" class="inquire_over">INQUIRE</a></li>
 </ul>
 <hr />
 </div>
@@ -87,10 +87,10 @@ $(document).ready(function () {
 
 <div class="menu">
   <ul>
-    <li class="about"><a class="ease" href="about">About</a></li>
-    <li class="services"><a class="ease" href="services">Services</a></li>
-    <li class="ourwork"><a class="ease" href="ourwork">Our Work</a></li>
-    <li class="news"><a class="ease" href="news">News</a></li>
+    <li class="about"><a class="ease" href="secondary/about.php">About</a></li>
+    <li class="services"><a class="ease" href="secondary/services.php">Services</a></li>
+    <li class="ourwork"><a class="ease" href="secondary/ourwork.php">Our Work</a></li>
+    <li class="news"><a class="ease" href="secondary/news.php">News</a></li>
   </ul>
 </div>
 

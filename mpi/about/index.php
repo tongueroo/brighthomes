@@ -1,5 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
+<?php $thisPage="about"; ?>
+
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Martin Perri Interiors</title>
@@ -16,31 +20,7 @@
 <style type="text/css">.menu {position:relative;width:630px;height:200px;overflow:hidden;margin-left:20px;}</style>
 <![endif]-->
 
-<!-- slide navigation code -->
-<script type="text/javascript">
-$(document).ready(function () {
 
-  // find the elements to be eased and hook the hover event
-  $('div.menu ul li a').hover(function() {
-    
-    // if the element is currently being animated (to a easeOut)...
-    if ($(this).is(':animated')) {
-      $(this).stop().animate({width: "670px"}, {duration: 450, easing:"easeOutQuad"});
-    } else {
-      // ease in quickly
-      $(this).stop().animate({width: "670px"}, {duration: 400, easing:"easeOutQuad"});
-    }
-  }, function () {
-    // on hovering out, ease the element out
-    if ($(this).is(':animated')) {
-      $(this).stop().animate({width: "99px"}, {duration: 400, easing:"easeInOutQuad"})
-    } else {
-      // ease out slowly
-      $(this).stop('animated:').animate({width: "99px"}, {duration: 450, easing:"easeInOutQuad"});
-    }
-  });
-});
-</script>
 
 
 <!--background stretcher -->
@@ -65,17 +45,6 @@ $(document).ready(function () {
 </script>
 
 
-<!--services -->
-<script type="text/javascript">
-			$(document).ready(function(){
-
-				$('.serviceslist.caption').hover(function(){
-					$(".cover", this).stop().animate({top:'130px'},{queue:false,duration:160});
-				}, function() {
-					$(".cover", this).stop().animate({top:'255px'},{queue:false,duration:160});
-				});
-			});
-		</script>
 
 </head>
 
@@ -85,83 +54,38 @@ $(document).ready(function () {
 <body>
 <div id="page">
 
-<div id="header_container">
+<?php include_once("../includes/nav.php"); ?>
 
-<div id="header">
-	<div id="logo"><img src="../images/spacer.gif" /></div>
-    <div id="navcontainer">
-   	  <div id="nav-wrap">
-       	  <ul class="group" id="example-two">
-            <li><a rel="#8d5917" href="#">About</a></li>
-            <li class="current_page_item_two"><a rel="#274967" href="#">Services</a></li>
-            <li><a rel="#ab4c20" href="#">Our Work</a></li>
-            <li ><a rel="#593e29" href="#">News</a></li>
-       	  </ul>
-      </div>
-		<div id="inquire"><a href="inquire">INQUIRE</a></div>
-    </div>
-</div>
-
-</div>
 <div class="clearfix"></div>
-
-<div id="container">
+      <div id="container">
       
       		<div id="content">
             	<div id="leftcontent">
-            	  <p>Are you contemplating a design or remodeling project? Would you like some professional assistance in selecting accessories, a few distinctive furnishing pieces, or custom window treatments?</p>
-            	  <p>If you’re considering professional design services to help you update, enhance, expand or beautify your home, you’ll find that when it comes to your home -- how it looks, feels and lives -- there’s hardly a visible inch that’s beyond our creative touch.</p>
+            	  <p>Our client service team is equally competent and creative in ways of their own. Learn more.
+        
+        If you are interested in joining our professional Design Team, view our current openings. </p>
+            	  <p>Admittedly, you can’t see “client service” in any of our portfolio photos. And unfortunately they don’t give trophies for “best order tracking by an interior design firm”. But at Martin Perri, it's been our private crusade to prove that creativity and customer service are not mutually exclusive.</p>
+            	  <p>Here are a few examples of what that means for our clients:</p>
+            	  <ul>
+                    <li>We process orders, follow up with the factories and review confirmations;</li>
+            	    <li>We order finish samples, coordinate getting fabrics from the mill to the manufacturer, and make sure fabrics are applied in the correct direction;</li>
+            	    <li>We check and update schedules, expedite orders, track shipments, and keep you apprised throughout the process;</li>
+            	    <li>Furnishings, artwork and accessories are checked and perfected before they get to your home;</li>
+            	    <li>We can warehouse items as they come in and deliver a complete order, meeting deliveries at your home to do a final quality check; and,</li>
+            	    <li>We have the support and systems to take care of all the details and any problems that arise – fast.</li>
+          	    </ul>
             	  <p>&nbsp;</p>
-           	  </div>
-                <div id="rightcontent">
-                	<div class="rightcontent_quote q_services"></div>
-                </div>
-              <div class="clearfix"></div>
-              
-              <div id="fullcolumn">
-              	<div class="serviceslist caption">
-                <img src="../images/services_image1.jpg"/>
-                	<div class="cover boxcaption">
-					<h3>Interior<br />
-					  Furnishings</h3>
-					<p>Distinctive Furnishings<br />Window Treatments<br />Custom Bedding & Pillows<br />Artwork & Accessories<br />Decorative Lighting</p>
-					</div>
-                </div>
-                <div class="serviceslist caption">
-                <img src="../images/services_image2.jpg"/>
-                	<div class="cover boxcaption">
-					<h3>Architectural Detailing</h3>
-					<p>Pre-Construction Planning<br />Space Planning<br />Lighting Design<br />Interior Specifications<br />Computerized Drafting</p>
-					</div>
-                </div>
-                <div class="serviceslist caption">
-                <img src="../images/services_image3.jpg"/>
-                	<div class="cover boxcaption">
-					<h3>Specialty Design Services</h3>
-					<p>Custom & Built-in Cabinetry<br />Custom Furnishings<br />Fireplace Design<br />Kitchen & Bath<br />Home Theater & Automation</p>
-					</div>
-                </div>
-                <div class="serviceslist caption">
-                <img src="../images/services_image4.jpg"/>
-                	<div class="cover boxcaption">
-					<h3>Exterior Design Services</h3>
-					<p>Texture, Balance<br />
-						&nbsp;&nbsp;&nbsp; & Color Studies<br />Roof, Trim & Wall Recommendations<br />Decorative Ironwork & Railings<br />Exterior Lighting & Entries</p>
-					</div>
-                </div>
-                
-              
-              
-              </div>
+            	</div>
+                <div id="rightcontent"></div>
             
             
             
             
             </div>
       </div>  	
-
-
-
-</div>
+       
+   
+ </div>
+    
 </body>
 </html>

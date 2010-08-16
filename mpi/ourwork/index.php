@@ -149,28 +149,8 @@ $(document).ready(function(){
 <body>
 <div id="page">
 
-<div id="header_container">
+<?php include_once("../includes/nav.php"); ?>
 
-<div id="header">
-	<div id="logo"><img src="../images/spacer.gif" /></div>
-    <div id="navcontainer">
-   	  <div id="nav-wrap">
-       	  <ul class="group" id="example-two">
-            <li <?php if ($thisPage=="about") 
-      echo " class=\"current_page_item_two\""; ?>><a id="colorbar_about" rel="#8d5917" href="about.php">About</a></li>
-            <li <?php if ($thisPage=="services") 
-      echo " class=\"current_page_item_two\""; ?>><a id="colorbar_services" rel="#274967" href="services.php">Services</a></li>
-            <li <?php if ($thisPage=="ourwork") 
-      echo " class=\"current_page_item_two\""; ?>><a id="colorbar_ourwork" rel="#ab4c20" href="ourwork.php">Our Work</a></li>
-            <li <?php if ($thisPage=="news") 
-      echo " class=\"current_page_item_two\""; ?>><a id="colorbar_news" rel="#593e29" href="news.php">News</a></li>
-       	  </ul>
-      </div>
-		<div id="inquire"><a href="inquire.php">INQUIRE</a></div>
-    </div>
-</div>
-
-</div>
 <div class="clearfix"></div>
 
 <div id="container">
@@ -191,7 +171,7 @@ $(document).ready(function(){
                 
               	<div class="work caption2">
                 	<img src="../images/featuredprojects.jpg"/>
-                	<a href="featuredprojects.php"><div class="coverall boxcaption2">
+                	<a href="projects.php"><div class="coverall boxcaption2">
 					<h3>Featured Projects</h3>
 					<p>Lenisl illa autpatet ullaor ing eugait nullandiam, con er adigna aliquat, veniscidunt Putpatueros nim zzriustin hent volore vullan vendre delesendiam aci blaore dignit ut laore modio er auguer in ent aute dolortie miniat alisi blaorem vel dit, conullam.</p>
 					</div></a>
