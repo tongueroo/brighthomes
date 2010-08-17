@@ -107,3 +107,5 @@
 		<div class="clearfix"></div>
 	</div>
 </div>
+
+<script type="text/javascript" src="../js/idearoom.js"></script>

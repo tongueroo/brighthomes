@@ -31,3 +31,5 @@
 	</div>
 	<div class="clearfix"></div>
 </div>
+
+<script type="text/javascript" src="../js/ourwork.js"></script>
