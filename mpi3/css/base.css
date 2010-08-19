@@ -343,7 +343,29 @@ h3{
 	top: 0;  
 	left: 0;  
 	border: 0;  
-}  
+} 
+
+.work p{ 
+	padding: 0 10px; 
+	color:#afafaf; 
+	font-weight:bold; 
+	font:12px "Lucida Grande", Arial, sans-serif;
+	line-height: 20px; 
+	padding-left: 15px
+}
+
+.work h3{
+	color:#FFF;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 15px;
+}
+ 
 
 
 .boxcaption2{  

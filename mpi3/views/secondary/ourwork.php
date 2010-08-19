@@ -7,25 +7,25 @@
 		<div id="workbt_container">
 			<div class="work caption2">
 				<img src="../images/featuredprojects.jpg"> <a href="featuredprojects"></a>
-				<div class="coverall boxcaption2">
+				<a href="projects"><div class="coverall boxcaption2">
 					<h3>
 						Featured Projects
 					</h3>
 					<p>
 						Lenisl illa autpatet ullaor ing eugait nullandiam, con er adigna aliquat, veniscidunt Putpatueros nim zzriustin hent volore vullan vendre delesendiam aci blaore dignit ut laore modio er auguer in ent aute dolortie miniat alisi blaorem vel dit, conullam.
 					</p>
-				</div>
+				</div></a>
 			</div>
 			<div class="work caption2">
 				<img src="../images/idearoom.jpg"> <a href="idearoom"></a>
-				<div class="coverall boxcaption2">
+				<a href="idearoom"><div class="coverall boxcaption2">
 					<h3>
 						Idea Room
 					</h3>
 					<p>
 						Lenisl illa autpatet ullaor ing eugait nullandiam, con er adigna aliquat, veniscidunt Putpatueros nim zzriustin hent volore vullan vendre delesendiam aci blaore dignit ut laore modio er auguer in ent aute dolortie miniat alisi blaorem vel dit, conullam.
 					</p>
-				</div>
+				</div></a>
 			</div>
 		</div>
 	</div>
