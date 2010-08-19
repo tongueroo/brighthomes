@@ -1,8 +1,7 @@
-/* for debugging */
-/*.menu ul li.about a {
+/* news starts off full */
+.menu ul li.news a {
   min-width:670px;
 }
-*/
 
 #wrap {
 	margin: 0 auto;
