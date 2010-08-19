@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<div class="idealist captionidea">
-			<a href="#"><img src="../images/idea_childrensroom.jpg" border="0"></a>
+			<a href="idea_childrens"><img src="../images/idea_childrensroom.jpg" border="0"></a>
 			<div class="coveridea boxcaptionidea">
 				<h3>
 					Childrens<br>

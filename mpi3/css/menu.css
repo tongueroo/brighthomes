@@ -1,8 +1,8 @@
 /* for debugging */
-.menu ul li.about a {
+/*.menu ul li.about a {
   min-width:670px;
 }
-
+*/
 
 #wrap {
 	margin: 0 auto;
@@ -50,27 +50,24 @@
 }
 
 
-.menu ul li.about a.end {
+.menu ul li.about a {
   background: url(../images/menu_about-bright.jpg) repeat scroll 0%;
 	z-index: 5;
 }
-.menu ul li.about a.start {
-	background: url(../images/menu_about-dark.jpg) repeat scroll 0%;
-	z-index: 10;
-}
-
-
 .menu ul li.services a {
   background: url(../images/menu_services-bright.jpg) repeat scroll 0%;
 }
 .menu ul li.ourwork a {
   background: url(../images/menu_ourwork-bright.jpg) repeat scroll 0%;
 }
-
 .menu ul li.news a {
   background: url(../images/menu_news-bright.jpg) repeat scroll 0%;
 }
 
+.menu ul li.about a.dark {
+	background: url(../images/menu_about-dark.jpg) repeat scroll 0%;
+	z-index: 10;
+}
 .menu ul li.services a.dark {
 	background: url(../images/menu_services-dark.jpg) repeat scroll 0%;
 }
