@@ -10,8 +10,30 @@
 <script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
 <script type="text/javascript" src="js/modernizr-1.5.js"></script>
 <script type="text/javascript" src="js/logger.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.cross.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 </head>
+
+<script type="text/javascript" charset="utf-8">
+$(function() {
+	$('#swap').click(function(e) {
+		var a = $('li.ourwork a');
+		if (a.is(':visible')) {
+			a.hide();
+			$('li.ourwork img').css({'margin-left': '0'});
+		} else {
+			a.show();
+			$('li.ourwork img').css({'margin-left': '-1000px'});
+		}
+		
+		// $('li.ourwork img.fade:visible').css({'opacity' : 1});
+		
+		console.log("swapped");
+		var a2 = $('li.ourwork a:visible');
+		console.log("a2 %o", a2);
+	});
+});
+</script>
 
 <body>
 <!--[if IE 8]><div class="ie ie8 ie78"><![endif]-->
@@ -27,14 +49,22 @@
 <div id="wrap">
 	<div class="menu">
 	  <ul>
-	    <li class="fade about">
-				<!-- <img src="images/menu_about-dark.jpg" /> -->
+	    <li class="about">
 				<a class="start ease" href="secondary/about">About</a>
-				<div><a class="end" href="secondary/about">About</a></div>
+				<img class="fade narrow" src="images/menu_about-dark.jpg" style="background: url(images/menu_about-bright.jpg);" alt="About" />
 			</li>
-	    <li class="services"><a class="ease" href="secondary/services">Services</a></li>
-	    <li class="ourwork"><a class="ease" href="secondary/ourwork">Our Work</a></li>
-	    <li class="news"><a class="ease" href="secondary/news">News</a></li>
+	    <li class="services">
+				<a class="ease" href="secondary/services">Services</a>
+				<img class="fade narrow" src="images/menu_services-dark.jpg" style="z-index:99;background: url(images/menu_services-bright.jpg);" alt="About" />
+			</li>
+	    <li class="ourwork">
+				<a class="ease" href="secondary/ourwork">Our Work</a>
+				<img class="fade narrow" src="images/menu_ourwork-dark.jpg" style="background: url(images/menu_ourwork-bright.jpg);" alt="About" />
+			</li>
+	    <li class="news">
+				<a class="ease" href="secondary/news">News</a>
+				<img class="fade narrow" src="images/menu_news-dark.jpg" style="background: url(images/menu_news-bright.jpg);" alt="About" />
+			</li>
 	  </ul>
 	</div>
 </div>

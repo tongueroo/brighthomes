@@ -6,16 +6,21 @@
 <title>Martin Perri Interiors</title>
 <link href="../css/menu.css" rel="stylesheet" type="text/css" />
 <link href="../css/base.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="../js/jquery.js"></script><script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script><script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
+<link href="../css/bgstretcher.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery-easing-1.3.pack.js"></script>
+<script type="text/javascript" src="../js/jquery-easing-compatibility.1.2.pack.js"></script>
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js?ver=1.3.2'></script>
 <script type='text/javascript' src='../js/jquery.color-RGBa-patch.js'></script>
 <script type='text/javascript' src='../js/example.js'></script>
 <script type="text/javascript" src="../js/bgstretcher.js"></script>
-<link rel="stylesheet" href="../css/bgstretcher.css" />
 <script type="text/javascript" src="../js/stretch.js"></script>
 </head>
 
 <body>
+<!--[if IE 8]><div class="ie ie8 ie78"><![endif]-->
+<!--[if IE 7]><div class="ie ie7 ie67 ie78"><![endif]-->
+<!--[if IE 6]><div class="ie ie6 ie67"><![endif]-->
 <div id="page">
 	
 <div id="header_container">
@@ -45,5 +50,6 @@
 </div>
        
 </div>
+<!--[if IE]></div><![endif]-->
 </body>
 </html>
