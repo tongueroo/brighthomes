@@ -1,6 +1,6 @@
 /* news starts off full */
 .menu ul li.news a {
-  min-width:670px;
+  width:670px;
 }
 
 #wrap {
@@ -20,8 +20,12 @@
 /*  background-color: red;*/
 }
 
+/* dont now why I need to do this for ie */
 .ie .menu {
-  top: 16px;  /* dont now why I need to do this for ie */
+  top: 16px;  
+}
+.ie6 .menu {
+  top: -7px;
 }
 
 .menu ul {

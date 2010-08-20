@@ -50,7 +50,7 @@ body {
 #logo img {
 	width: 135px;
 	height: 85px;
-	background-image: url(../images/logo.png);
+	background-image: url(../images/layout/logo.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 }
@@ -61,7 +61,7 @@ body {
 	text-decoration: none;	
 	letter-spacing: 0.2em;	
 	float:right;
-	background-image:url(../images/arrow.png);
+	background-image:url(../images/arrow.gif);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	padding-top: 68px;
@@ -73,7 +73,7 @@ body {
 
 #inquire a:hover {
 	color: #FFFFFF;
-	background-image:url(../images/arrow_white.png);
+	background-image:url(../images/arrow_white.gif);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	padding-top: 68px;
