@@ -20,18 +20,14 @@
 					Furnishings
 				</h3>
 				<ul>
-					<li>Distinctive Furnishings
-					</li>
-					<li>Window Treatments
-					</li>
-					<li>Custom Bedding &amp; Pillows
-					</li>
-					<li>Artwork &amp; Accessories
-					</li>
-					<li>Decorative Lighting
-					</li>
+					<li>Upholestry</li>
+					<li>Window Treatments</li>
+					<li>Occasional Furnishings</li>
+					<li>Custom Bedding </li>
+					<li>Artwork &amp; Accessories</li>
+				    <li>Decorative Lighting</li>
 				</ul>
-			</div>
+		  </div>
 		</div>
 		<div class="serviceslist caption">
 			<img src="../images/services_image2.jpg">
@@ -40,58 +36,45 @@
 					Architectural Detailing
 				</h3>
 				<ul>
-					<li>Pre-Construction Planning
-					</li>
-					<li>Space Planning
-					</li>
-					<li>Lighting Design
-					</li>
-					<li>Interior Specifications
-					</li>
-					<li>Computerized Drafting
-					</li>
+					<li>Pre-Construction Planning</li>
+					<li>Space Planning </li>
+					<li>Lighting Design </li>
+					<li>Interior Specifications</li>
 				</ul>
-			</div>
+		  </div>
 		</div>
 		<div class="serviceslist caption">
 			<img src="../images/services_image3.jpg">
 			<div class="cover boxcaption">
 				<h3>
-					Specialty Design Services
-				</h3>
-				<ul>
-					<li>Custom &amp; Built-in Cabinetry
-					</li>
-					<li>Custom Furnishings
-					</li>
-					<li>Fireplace Design
-					</li>
-					<li>Kitchen &amp; Bath
-					</li>
-					<li>Home Theater &amp; Automation
-					</li>
-				</ul>
-			</div>
-		</div>
+					Specialty Design Services</h3>
+		  <ul>
+					<li>Cabinetry Design</li>
+					<li>Custom Furnishings</li>
+					<li>Fireplace Design </li>
+					<li>Outdoor Living Spaces </li>
+					<li>Home Theater &amp; Automation</li>
+				    <li>Commercial Design</li>
+		  </ul>
+		  </div>
+	  </div>
 		<div class="serviceslist caption">
 			<img src="../images/services_image4.jpg">
 			<div class="cover boxcaption">
-				<h3>
-					Exterior Design Services
-				</h3>
-				<ul>
-					<li>Texture, Balance &amp; Color Studies
-					</li>
-					<li>Roof, Trim &amp; Wall Recommendations
-					</li>
-					<li>Decorative Ironwork &amp; Railings
-					</li>
-					<li>Exterior Lighting &amp; Entries
-					</li>
-				</ul>
-			</div>
-		</div>
+				<h3>Comprehensive <br />
+			    <div class="smaller">Specification Packages</div></h3>
+		  <ul>
+					<li>Lighting Selections					</li>
+					<li>Interior Millwork &amp; Cabinetry</li>
+					<li>Paint Color Selections </li>
+					<li>Flooring Selections</li>
+				    <li>Wall Finish Selections</li>
+		            <li>Plumbing Selections </li>
+		  </ul>
+		  </div>
+	  </div>
 	</div>
 </div>
 
 <script type="text/javascript" src="../js/services.js"></script>
+<script type="text/javascript" src="../js/stretch.js"></script>

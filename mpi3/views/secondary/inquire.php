@@ -300,3 +300,5 @@
 		</form>
 	</div>
 </div>
+
+<script type="text/javascript" src="../js/stretch.js"></script>

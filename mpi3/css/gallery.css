@@ -15,6 +15,9 @@ div.imagecontent a:focus, div.imagecontent a:hover, div.imageimagecontent a:acti
 div.controls {
 	margin-top: 5px;
 	height: 23px;
+	border-bottom-color:#999999;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
 }
 div.controls a {
 	padding: 5px;
@@ -29,6 +32,8 @@ div.slideshow-container {
 	position: relative;
 	clear: both;
 	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	margin-top: 15px;
+
 }
 div.loader {
 	position: absolute;

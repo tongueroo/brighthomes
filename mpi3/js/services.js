@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('.serviceslist.caption').hover(function(){
-		$(".cover", this).stop().animate({top:'130px'},{queue:false,duration:160});
+		$(".cover", this).stop().animate({top:'95px'},{queue:false,duration:160});
 	}, function() {
 		$(".cover", this).stop().animate({top:'255px'},{queue:false,duration:160});
 	});

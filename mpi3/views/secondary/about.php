@@ -23,9 +23,10 @@
 			<li>We have the support and systems to take care of all the details and any problems that arise – fast.
 			</li>
 		</ul>
-		<p>
-			&nbsp;
+		<p>&nbsp;
+			
 		</p>
 	</div>
 	<div id="rightcontent"></div>
 </div>
+<script type="text/javascript" src="../js/stretch.js"></script>

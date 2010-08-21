@@ -109,3 +109,4 @@
 </div>
 
 <script type="text/javascript" src="../js/idearoom.js"></script>
+<script type="text/javascript" src="../js/stretch.js"></script>
