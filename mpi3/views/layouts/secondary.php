@@ -23,16 +23,6 @@
 <!--[if IE 6]><div class="ie ie6 ie67"><![endif]-->
 <div id="page">
 	
-<?php
-function current_class($page)
-{
-  GLOBAL $router;
-	if ($router->page==$page) {
-		echo ' class="current"';
-	}
-}
-?>
-	
 <div id="header_container">
 <div id="header">
 	<div id="logo"><img src="../images/spacer.gif" /></div>

@@ -29,5 +29,12 @@ function partial($name)
   include("views/layouts/_$name.php");
 }
 	
+function current_class($page)
+{
+  GLOBAL $router;
+  if ($router->page==$page) {
+    echo ' class="current"';
+  }
+}
 
 ?>
