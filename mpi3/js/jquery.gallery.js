@@ -909,12 +909,17 @@
 			}
 		
 			if (this.renderNavControls) {
+				// MODIFIED FOR CLIENT
+				
+				// this.$controlsContainer
+				// 	.append('<div class="nav-controls"><a class="prev" rel="history" title="'+this.prevLinkText+'">'+this.prevLinkText+'</a><a class="next" rel="history" title="'+this.nextLinkText+'">'+this.nextLinkText+'</a></div>')
+				// 	.find('div.nav-controls a')
+				// 	.click(function(e) {
+				// 		gallery.clickHandler(e, this);
+				// 	});
+				
 				this.$controlsContainer
-					.append('<div class="nav-controls"><a class="prev" rel="history" title="'+this.prevLinkText+'">'+this.prevLinkText+'</a><a class="next" rel="history" title="'+this.nextLinkText+'">'+this.nextLinkText+'</a></div>')
-					.find('div.nav-controls a')
-					.click(function(e) {
-						gallery.clickHandler(e, this);
-					});
+					.append('<div class="nav-controls"><a href="idearoom">Return to Idea Room</a></div>');
 			}
 		}
 
