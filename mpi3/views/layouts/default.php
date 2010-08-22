@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Martin Perri Interiors</title>
 <link href="css/base.css" rel="stylesheet" type="text/css" />
-<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script>
 <script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
@@ -13,27 +13,6 @@
 <script type="text/javascript" src="js/jquery.cross.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
 </head>
-
-<script type="text/javascript" charset="utf-8">
-$(function() {
-	$('#swap').click(function(e) {
-		var a = $('li.ourwork a');
-		if (a.is(':visible')) {
-			a.hide();
-			$('li.ourwork img').css({'margin-left': '0'});
-		} else {
-			a.show();
-			$('li.ourwork img').css({'margin-left': '-1000px'});
-		}
-		
-		// $('li.ourwork img.fade:visible').css({'opacity' : 1});
-		
-		console.log("swapped");
-		var a2 = $('li.ourwork a:visible');
-		console.log("a2 %o", a2);
-	});
-});
-</script>
 
 <body>
 <!--[if IE 8]><div class="ie ie8 ie78"><![endif]-->

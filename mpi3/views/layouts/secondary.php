@@ -4,8 +4,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Martin Perri Interiors</title>
-<link href="../css/menu.css" rel="stylesheet" type="text/css" />
 <link href="../css/base.css" rel="stylesheet" type="text/css" />
+<link href="../css/nav.css" rel="stylesheet" type="text/css" />
 <link href="../css/bgstretcher.css" rel="stylesheet" />
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/jquery-easing-1.3.pack.js"></script>

@@ -96,12 +96,6 @@ hr {
 }
 
 
-#navcontainer {
-	float: right;
-	width: 750px;
-}
-
-
 .group:after { 
 	visibility: hidden; 
 	display: block; 
@@ -119,76 +113,6 @@ hr {
 	overflow:hidden;
 }
 
-#nav-wrap {
-	float: left;
-	margin-top: 60px;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	margin-right: 0px;
-	margin-left: 0px;
-	padding-bottom: 5px;
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
-	width: 520px;
-}
-	#nav {
-		list-style: none;
-		position: relative;
-		width: 480px;
-		margin-top: 0;
-		margin-bottom: 0;
-		margin-right: 0px;
-		margin-left: 0px;
-	}
-	#nav li {
-		display: inline;
-	}
-	#nav li a {
-		position: relative;
-		z-index: 200;
-		color: #999999;
-		font-size: 12px;
-		display: block;
-		float: left;
-		padding: 6px 0px 4px 0px;
-		text-decoration: none;
-		font-family: Arial, Helvetica, sans-serif;
-		width: 120px;
-		text-align: center;
-	}
-	#nav li a:hover { 
-		color: white; 
-	}
-	#nav #magic-line  { 
-		position: absolute; 
-		top: 0; 
-		left: 0; 
-		width: 100px; 
-		z-index: 100; 
-	}
-
-	#nav li, #nav a {
-		margin: 0;
-		padding: 0;
-	}
-	#nav a.about {
-		border-bottom: 3px solid #8d5917;
-	}
-	#nav a.services {
-		border-bottom: 3px solid #274967;
-	}
-	#nav a.ourwork {
-		border-bottom: 3px solid #ab4c20;
-	}
-	#nav a.news {
-		border-bottom: 3px solid #593e29;
-	}
-
-
-.current a { color: white !important; }
 
 
 
