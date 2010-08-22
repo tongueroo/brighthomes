@@ -1,27 +1,27 @@
 $(function(){
     var $el, leftPos, newWidth,
-        $mainNav2 = $("#example-two");
+        $nav = $("#nav");
     
-    $mainNav2.append("<li id='magic-line-two'></li>");
+    $nav.append("<li id='magic-line'></li>");
     
     var $menu_li, $menu_a, has_original;
     
     // has original item
-    if ($(".current_page_item_two a").length > 0) {
-      $menu_li = $(".current_page_item_two");
-      $menu_a = $(".current_page_item_two a");
+    if ($(".current a").length > 0) {
+      $menu_li = $(".current");
+      $menu_a = $(".current a");
       has_original = true;
     }
     // since all the menu items are the same width, can use any of them to do the width calculations
     else {
-      $menu_li = $('#example-two li:first');
-      $menu_a  = $('#example-two li:first a');
+      $menu_li = $('#nav li:first');
+      $menu_a  = $('#nav li:first a');
     }
     
-    var $magicLineTwo = $("#magic-line-two");
+    var $magicLineTwo = $("#magic-line");
     $magicLineTwo
         .width($menu_li.width())
-        .height($mainNav2.height())
+        .height($nav.height())
         .css("left", $menu_a.position().left)
         .data("origLeft", $menu_a.position().left)
         .data("origWidth", $magicLineTwo.width())
@@ -38,7 +38,7 @@ $(function(){
       });
 		}
                 
-    $("#example-two li").find("a").hover(function() {
+    $("#nav li").find("a").hover(function() {
       highlight(this);
     }, function() {
       if (has_original) {
@@ -54,8 +54,8 @@ $(function(){
       }
     });
 
-    // preload the highlight based on the .current_page_item_two class
-    if ($(".current_page_item_two a").length > 0)
-      highlight(".current_page_item_two a");
+    // preload the highlight based on the .current class
+    if ($(".current a").length > 0)
+      highlight(".current a");
     
 });

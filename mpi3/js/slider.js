@@ -93,4 +93,10 @@ $(window).bind('load', function () {
       shrink(link);
     });
   });
+
+	// because the links get hidden we need to assign an onclick handler to the li containers as a workaround
+	$('div.menu ul li').click(function() {
+		var href = $(this).find('a').attr('href');
+		window.location.href = href;
+	});
 });

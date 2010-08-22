@@ -12,7 +12,7 @@
 <script type="text/javascript" src="../js/jquery-easing-compatibility.1.2.pack.js"></script>
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js?ver=1.3.2'></script>
 <script type='text/javascript' src='../js/jquery.color-RGBa-patch.js'></script>
-<script type='text/javascript' src='../js/example.js'></script>
+<script type='text/javascript' src='../js/nav.js'></script>
 <script type="text/javascript" src="../js/bgstretcher.js"></script>
 <script type="text/javascript" src="../js/stretch.js"></script>
 </head>
@@ -23,20 +23,26 @@
 <!--[if IE 6]><div class="ie ie6 ie67"><![endif]-->
 <div id="page">
 	
+<?php
+function current_class($page)
+{
+  GLOBAL $router;
+	if ($router->page==$page) {
+		echo ' class="current"';
+	}
+}
+?>
+	
 <div id="header_container">
 <div id="header">
 	<div id="logo"><img src="../images/spacer.gif" /></div>
     <div id="navcontainer">
    	  <div id="nav-wrap">
-       	  <ul class="group" id="example-two">
-            <li <?php if ($router->page=="about") 
-      echo " class=\"current_page_item_two\""; ?>><a id="colorbar_about" rel="#8d5917" href="about">About</a></li>
-            <li <?php if ($router->page=="services") 
-      echo " class=\"current_page_item_two\""; ?>><a id="colorbar_services" rel="#274967" href="services">Services</a></li>
-            <li <?php if ($router->page=="ourwork") 
-      echo " class=\"current_page_item_two\""; ?>><a id="colorbar_ourwork" rel="#ab4c20" href="ourwork">Our Work</a></li>
-            <li <?php if ($router->page=="news") 
-      echo " class=\"current_page_item_two\""; ?>><a id="colorbar_news" rel="#593e29" href="news">News</a></li>
+       	  <ul class="group" id="nav">
+            <li <?php current_class("about"); ?>><a class="about" rel="#8d5917" href="about">About</a></li>
+            <li <?php current_class("services"); ?>><a class="services" rel="#274967" href="services">Services</a></li>
+            <li <?php current_class("ourwork"); ?>><a class="ourwork" rel="#ab4c20" href="ourwork">Our Work</a></li>
+            <li <?php current_class("news"); ?>><a class="news" rel="#593e29" href="news">News</a></li>
        	  </ul>
       </div>
 		<div id="inquire"><a href="inquire">INQUIRE</a></div>
