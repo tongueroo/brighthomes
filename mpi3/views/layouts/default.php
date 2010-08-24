@@ -10,8 +10,8 @@
 <script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
 <script type="text/javascript" src="js/modernizr-1.5.js"></script>
 <script type="text/javascript" src="js/logger.js"></script>
-<script type="text/javascript" src="js/jquery.cross.js"></script>
-<script type="text/javascript" src="js/slider.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.cross.js"></script> -->
+<!-- <script type="text/javascript" src="js/slider.js"></script> -->
 </head>
 
 <body>
@@ -19,12 +19,17 @@
 <!--[if IE 7]><div class="ie ie7 ie67 ie78"><![endif]-->
 <!--[if IE 6]><div class="ie ie6 ie67"><![endif]-->
 <div id="header_container">
-	<ul id="header">
-		<li id="logo"><img src="images/spacer.gif" /></li>
-		<li id="inquire"><a href="secondary/inquire" class="inquire_over">INQUIRE</a></li>
-	</ul>
-	<hr />
+<div id="header">
+	<div id="logo"><a href="http://dev.tongueroo.com/mpi3/"><img src="../images/spacer.gif" /></a></div>
+    <div id="navcontainer">
+
+		<div id="inquire"><a href="secondary/inquire">INQUIRE</a></div>
+    </div>
 </div>
+<hr />
+</div>
+<div class="clearfix"></div>
+	
 <div id="wrap">
 	<div class="menu">
 	  <ul>

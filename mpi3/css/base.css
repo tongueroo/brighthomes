@@ -24,7 +24,7 @@ body {
 	border-left-style: none;
 	width: 100%;
 	background-color: #000000;
-	height: 89px;
+	height: 87px;
 }
 
 #header {
@@ -49,8 +49,8 @@ body {
 
 #logo img {
 	width: 135px;
-	height: 85px;
-	background-image: url(../images/layout/logo.gif);
+	height: 78px;
+	background-image: url(../images/layout/logo.png);
 	background-repeat: no-repeat;
 	background-position: left top;
 }
@@ -61,7 +61,7 @@ body {
 	text-decoration: none;	
 	letter-spacing: 0.2em;	
 	float:right;
-	background-image:url(../images/arrow.gif);
+	background-image:url(../images/arrow.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	padding-top: 68px;
@@ -69,11 +69,12 @@ body {
 	padding-bottom: 5px;
 	padding-left: 0px;
 	margin: 0;
+	font-size:12px;
 }
 
 #inquire a:hover {
 	color: #FFFFFF;
-	background-image:url(../images/arrow_white.gif);
+	background-image:url(../images/arrow_white.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	padding-top: 68px;
@@ -459,13 +460,35 @@ li.image_rollover_two a .rollover {
   #inquireformleft {
 	float: left;
 }
+
+  #formwrapper {
+	background-color:#333333;
+	margin-right: 20px;
+	padding-bottom: 15px;
+}
+
+
+.formtext {
+	color:#FFFFFF;
+
+}
+
+.formtopic {
+	color:#FFFFFF;
+	font-weight:bold;
+		text-transform: capitalize;
+}
+
+
+
 .projectbt {
 	float: left;
 	padding-right: 7px;
 }
 
 #movie {
-	margin-top: -30px;
+	top: -25px;
+	position:relative;
 }
 
 
@@ -552,4 +575,23 @@ li.image_rollover_two a .rollover {
 	border-bottom-width: thin;
 	border-bottom-style: solid;
 	border-bottom-color: #666666;
+}
+
+#test {
+	width: 200px;
+	height:600px;
+	background-color:#009966;
+	float:left;
+}
+#test2 {
+	width: 200px;
+	height:625px;
+	background-color:#009966;
+	float:left;
+}
+#test3 {
+	width: 200px;
+	height:635px;
+	background-color:#009966;
+	float:left;
 }

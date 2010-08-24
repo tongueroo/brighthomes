@@ -4,14 +4,17 @@
 }
 
 .menu {
-  margin:0;
-  padding:0;
+	margin:0;
+	padding:0;
 	position: relative;
 	width: 1000px;
-	height: 750px;
+	height: 600px;
 	overflow: hidden;
 	clear:both;
-	margin-left:-40px;
+	top: 1px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
 }
 
 /* dont now why I need to do this for ie */
@@ -19,7 +22,11 @@
   top: 16px;  
 }
 .ie6 .menu {
-  top: -7px;
+  top: -5px;
+}
+
+.ie8 .menu {
+  top: 1px;
 }
 
 .menu ul {
@@ -27,12 +34,14 @@
 	margin: 0px;
 	padding: 0px;
 	display: block;
-	height: 750px;
+	height: 600px;
 	width: 2000px;
+	
 }
 
 .menu ul li {
 	float: left;
+
 }
 
   .menu ul li a {
@@ -42,7 +51,7 @@
   	display:block;
   	overflow:hidden;
   	width:99px;
-  	height: 750px;
+  	height: 600px;
   }
 
   .menu ul li a,

@@ -1,17 +1,22 @@
 <div id="content">
 	<div id="fullcolumn">
 		<p>
-			Peruse twelve pages filled with photographs of our most distinctive work, plus a full description of our design philosophy, our team approach, our customer service ethic and our full range of design and remodeling services.
-		</p>
-		<p>
+			Peruse twelve pages filled with photographs of our most distinctive work, plus a full description<br />
+		  of our design philosophy, our team approach, our customer service ethic and our full range of design and remodeling services.		</p>
+  <p>
 			Call us at 1-800-515-1156 or 925-735-9718 to request a copy, or use the form below. (all fields required)
 		</p>
 		<h2>
 			Mail Brochure to:
 		</h2>
-		<form name="request" method="post" action="brochure_actions.php" onsubmit="return validateForm(this);" id="request">
+             <div id="formwrapper">
+	  <form name="request" method="post" action="brochure_actions.php" onsubmit="return validateForm(this);" id="request">
 			<input type="hidden" name="recipient">
-			<div id="inquireformleft">
+			
+       
+            
+            
+            <div id="inquireformleft">
 				<table width="400px" border="0" cellspacing="3" cellpadding="3">
 					<tr>
 						<td width="50%" valign="top" class="formtext">
@@ -239,6 +244,7 @@
 					</tr>
 				</table>
 			</div>
+            
 			<div id="inquireformright">
 				<table width="400px" border="0" cellspacing="3" cellpadding="3">
 					<tr>
@@ -247,8 +253,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
-							<input type="checkbox" name="design_interest-enhancements" value="yes">
+						<td style="vertical-align:top; vertical-align:text-top">
+							<input type="checkbox" name="design_interest-enhancements" value="yes" >
 						</td>
 						<td colspan="2" class="formtext">
 							Furnishings, Window Treatments, Accessories or other enhancements to current home
@@ -297,8 +303,11 @@
 					</tr>
 				</table>
 			</div>
+            
+       
 		</form>
-	</div>
+            </div>
+  </div>
 </div>
 
 <script type="text/javascript" src="../js/stretch.js"></script>

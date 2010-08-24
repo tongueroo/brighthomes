@@ -14,7 +14,7 @@
 <script type='text/javascript' src='../js/jquery.color-RGBa-patch.js'></script>
 <script type='text/javascript' src='../js/nav.js'></script>
 <script type="text/javascript" src="../js/bgstretcher.js"></script>
-<script type="text/javascript" src="../js/stretch.js"></script>
+
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 	
 <div id="header_container">
 <div id="header">
-	<div id="logo"><img src="../images/spacer.gif" /></div>
+	<div id="logo"><a href="http://dev.tongueroo.com/mpi3/"><img src="../images/spacer.gif" /></a></div>
     <div id="navcontainer">
    	  <div id="nav-wrap">
        	  <ul class="group" id="nav">

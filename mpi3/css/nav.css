@@ -43,8 +43,13 @@
 		width: 120px;
 		text-align: center;
 	}
+	
+	
+	
+	
+	
 	#nav li a:hover { 
-		color: white; 
+		color: #FFFFFF; 
 	}
 	#nav #magic-line  { 
 		position: absolute; 
@@ -59,9 +64,11 @@
 		padding: 0;
 	}
 	#nav a.about {
+		z-index: 300;
 		border-bottom: 3px solid #8d5917;
 	}
 	#nav a.services {
+		z-index: 300;
 		border-bottom: 3px solid #274967;
 	}
 	#nav a.ourwork {
