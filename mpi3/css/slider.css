@@ -18,15 +18,8 @@
 }
 
 /* dont now why I need to do this for ie */
-.ie .menu {
-  top: 16px;  
-}
-.ie6 .menu {
-  top: -5px;
-}
-
-.ie8 .menu {
-  top: 1px;
+.ie67 .menu {
+  top: -7px;
 }
 
 .menu ul {
@@ -58,6 +51,10 @@
   .menu ul li img {
     border-right: 1px solid #999999;
   }
+
+	.ie .menu ul li img {
+  	width: 99px;
+	}
   
   /* using hide margin technique so .cross can see the element to set up the right markup for crossfade animation */
   .menu ul li img {

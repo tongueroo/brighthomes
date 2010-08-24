@@ -43,6 +43,9 @@ $(window).bind('load', function () {
     // wrap_div.css({'width': '680px'});
     dark.css({'margin-left': '0'}); // position crossfade element in view
     bright.css({'margin-left': '0'}); // position crossfade element in view
+    dark.css({'width': '680px'}); // position crossfade element in view
+    bright.css({'width': '680px'}); // position crossfade element in view
+
     
     dark.css({'opacity': 1});
     
@@ -73,6 +76,8 @@ $(window).bind('load', function () {
     var dark = slider_span.children().eq(1);
     var bright = slider_span.children().eq(0);
     
+    dark.css({'width': '99px'}); // position crossfade element in view
+    bright.css({'width': '99px'}); // position crossfade element in view
     dark.css({'margin-left': '-1000px'}); // hide crossfade element from view
     bright.css({'margin-left': '-1000px'}); // hide crossfade element from view
     link.show().css({'margin-right': '0'});

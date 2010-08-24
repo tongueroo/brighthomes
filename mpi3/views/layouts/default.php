@@ -10,8 +10,8 @@
 <script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
 <script type="text/javascript" src="js/modernizr-1.5.js"></script>
 <script type="text/javascript" src="js/logger.js"></script>
-<!-- <script type="text/javascript" src="js/jquery.cross.js"></script> -->
-<!-- <script type="text/javascript" src="js/slider.js"></script> -->
+<script type="text/javascript" src="js/jquery.cross.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 </head>
 
 <body>
