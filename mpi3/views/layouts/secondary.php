@@ -3,6 +3,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <title>Martin Perri Interiors</title>
 <link href="../css/base.css" rel="stylesheet" type="text/css" />
 <link href="../css/nav.css" rel="stylesheet" type="text/css" />
