@@ -133,38 +133,7 @@
 							</div>
 						</li>
                         
-                        <li>
-							<a class="thumb" href="../images/LR_12.jpg" title="">
-								<img src="../images/LR_12tn.jpg" alt="" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-                        
-                        <li>
-							<a class="thumb" href="../images/LR_13.jpg" title="">
-								<img src="../images/LR_13tn.jpg" alt="" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-                        
-                        <li>
-							<a class="thumb" href="../images/LR_14.jpg" title="">
-								<img src="../images/LR_14tn.jpg" alt="" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
+               
 
 
 

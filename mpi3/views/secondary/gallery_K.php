@@ -122,39 +122,7 @@
 							</div>
 						</li>
 
-						<li>
-							<a class="thumb" href="../images/K_11.jpg" title="Title #10">
-								<img src="../images/K_11tn.jpg" alt="Title #10" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-                        
-                        						<li>
-							<a class="thumb" href="../images/K_12.jpg" title="Title #10">
-								<img src="../images/K_12tn.jpg" alt="Title #10" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-                        
-                        						<li>
-							<a class="thumb" href="../images/K_13.jpg" title="Title #10">
-								<img src="../images/K_13tn.jpg" alt="Title #10" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-
+					
 					
 					</ul>
 				</div>

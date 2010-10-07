@@ -190,28 +190,7 @@
 							</div>
 						</li>
                         
-                        <li>
-							<a class="thumb" href="../images/SS_17.jpg" title="">
-								<img src="../images/SS_17tn.jpg" alt="" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-                        
-                        <li>
-							<a class="thumb" href="../images/SS_18.jpg" title="">
-								<img src="../images/SS_18tn.jpg" alt="" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-                        
+                 
 
 					
 					</ul>

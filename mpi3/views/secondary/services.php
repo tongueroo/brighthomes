@@ -1,11 +1,9 @@
 <div id="content">
 	<div id="leftcontent">
 		<p>
-			Are you contemplating a design or remodeling project? Would you like some professional assistance in selecting accessories, a few distinctive furnishing pieces, or custom window treatments?
+			<span class="starterblue">Over the years we've developed the skills,</span> and acquired the tools and resources, to provide a vast range of services and expertise to our clients. For every type of project in any location. If there's something you're looking for that you don't find here, it's likely that we've done it and can help.
 		</p>
-		<p>
-			If you’re considering professional design services to help you update, enhance, expand or beautify your home, you’ll find that when it comes to your home -- how it looks, feels and lives -- there’s hardly a visible inch that’s beyond our creative touch.
-		</p>
+		
 	</div>
 	<div id="rightcontent">
 		<div class="rightcontent_quote q_services"></div>

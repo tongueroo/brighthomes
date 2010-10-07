@@ -12,7 +12,11 @@
 						Featured Projects
 					</h3>
 					<p>
-						Lenisl illa autpatet ullaor ing eugait nullandiam, con er adigna aliquat, veniscidunt Putpatueros nim zzriustin hent volore vullan vendre delesendiam aci blaore dignit ut laore modio er auguer in ent aute dolortie miniat alisi blaorem vel dit, conullam.
+						We don't design homes one room at a time, we design them as a whole. Creating a natural flow as you move from entry, through formal living spaces to the functional and casual. In these six short pictorial tours, you'll experience our work as it is meant to be lived.</p>
+                        <p>
+
+Click to start the tour...
+
 					</p>
 				</div></a>
 			</div>
@@ -23,7 +27,11 @@
 						Gallery
 					</h3>
 					<p>
-						Lenisl illa autpatet ullaor ing eugait nullandiam, con er adigna aliquat, veniscidunt Putpatueros nim zzriustin hent volore vullan vendre delesendiam aci blaore dignit ut laore modio er auguer in ent aute dolortie miniat alisi blaorem vel dit, conullam.
+						Looking for ideas for a design renovation or update to specific rooms in your home? Our Gallery is the perfect online idea book to help spark your imagination and demonstrate the potential of working with our creative firm. </p>
+                        <p>
+
+Click to visit the Gallery...
+
 					</p>
 				</div></a>
 			</div>

@@ -112,18 +112,7 @@
 							</div>
 						</li>
 
-						<li>
-							<a class="thumb" href="../images/OS_10.jpg" title="Title #9">
-								<img src="../images/OS_10tn.jpg" alt="Title #9" />
-							</a>
-							<div class="caption">
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-
 						
-
 					
 					</ul>
 				</div>

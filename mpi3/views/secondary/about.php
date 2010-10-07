@@ -1,32 +1,13 @@
 <div id="content">
 	<div id="leftcontent">
-		<p>
-			Our client service team is equally competent and creative in ways of their own. Learn more. If you are interested in joining our professional Design Team, view our current openings.
-		</p>
-		<p>
-			Admittedly, you can’t see “client service” in any of our portfolio photos. And unfortunately they don’t give trophies for “best order tracking by an interior design firm”. But at Martin Perri, it's been our private crusade to prove that creativity and customer service are not mutually exclusive.
-		</p>
-		<p>
-			Here are a few examples of what that means for our clients:
-		</p>
-		<ul>
-			<li>We process orders, follow up with the factories and review confirmations;
-			</li>
-			<li>We order finish samples, coordinate getting fabrics from the mill to the manufacturer, and make sure fabrics are applied in the correct direction;
-			</li>
-			<li>We check and update schedules, expedite orders, track shipments, and keep you apprised throughout the process;
-			</li>
-			<li>Furnishings, artwork and accessories are checked and perfected before they get to your home;
-			</li>
-			<li>We can warehouse items as they come in and deliver a complete order, meeting deliveries at your home to do a final quality check; and,
-			</li>
-			<li>We have the support and systems to take care of all the details and any problems that arise – fast.
-			</li>
-		</ul>
-		<p>&nbsp;
+		<p class="introcopy">If you’re considering professional design services to help you update, enhance, expand or beautify your home, you’ll find that when it comes to your home – how it looks, feels and lives – there’s hardly a visible inch that’s beyond our creative touch.</p>
+		<p>At Martin Perri Interiors, we provide full-scale design services to guide you through the creative process.</p>
+		<p>Led by President and Design Director Martin Mitchell, the firm’s unique ability to integrate architecture and design enables us to collaborate with you in the conceptualization and planning phases through the technical specification and execution phases of all types of custom residential design projects – from new construction, remodeling, additions and architectural specifications to custom furnishings, accessories and window treatments.</p>
+		<p>From downtown city penthouses, to suburban estates or mountain hideways; from the California coast to the big Apple; from the largest of projects to the most discriminating detail –&nbsp; Martin Perri Interiors brings ideas, imagination, insights and experience to take your home from where it is to where you want it to be.</p>
+	  <p>&nbsp;
 			
 		</p>
 	</div>
-	<div id="rightcontent"><div class="martinphoto"><img src="../images/martinphoto.jpg" alt="Martin Perri" /></div></div>
+  <div id="rightcontent"><div class="martinphoto"><img src="../images/martinphoto.jpg" alt="Martin Perri" /></div></div>
 </div>
 <script type="text/javascript" src="../js/stretch.js"></script>

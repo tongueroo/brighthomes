@@ -82,15 +82,6 @@
 							</div>
 						</li>
 
-						<li>
-							<a class="thumb" href="../images/FR_07.jpg" title="Title #6">
-								<img src="../images/FR_07tn.jpg" alt="Title #6" />
-							</a>
-							<div class="caption">
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
 
 					
 					</ul>

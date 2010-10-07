@@ -62,15 +62,7 @@
 							</div>
 						</li>
 
-						<li>
-							<a class="thumb" href="../images/E_05.jpg" title="Title #4">
-								<img src="../images/E_05tn.jpg" alt="Title #4" />
-							</a>
-							<div class="caption">
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
+					
 
 						<li>
 							<a class="thumb" href="../images/E_06.jpg" title="Title #5">
@@ -102,37 +94,8 @@
 							</div>
 						</li>
 
-						<li>
-							<a class="thumb" href="../images/E_09.jpg" title="Title #8">
-								<img src="../images/E_09tn.jpg" alt="Title #8" />
-							</a>
-							<div class="caption">
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" href="../images/E_10.jpg" title="Title #9">
-								<img src="../images/E_10tn.jpg" alt="Title #9" />
-							</a>
-							<div class="caption">
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" href="../images/E_11.jpg" title="Title #10">
-								<img src="../images/E_11tn.jpg" alt="Title #10" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-
+					
+				
 					
 					</ul>
 				</div>

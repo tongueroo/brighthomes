@@ -200,28 +200,7 @@
 							</div>
 						</li>
                         
-                        <li>
-							<a class="thumb" href="../images/MB_19.jpg" title="">
-								<img src="../images/MB_19tn.jpg" alt="" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-                        
-                        <li>
-							<a class="thumb" href="../images/MB_20.jpg" title="">
-								<img src="../images/MB_20tn.jpg" alt="" />
-							</a>
-							<div class="caption">
-								
-								<div class="image-title"></div>
-								<div class="image-desc"></div>
-							</div>
-						</li>
-
+               
 
 					
 					</ul>

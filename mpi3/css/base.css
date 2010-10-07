@@ -14,6 +14,18 @@ body {
 	font-variant: normal;
 }
 
+.introcopy {
+	font-size:16px;
+	line-height: 24px;
+	color:#8d5a23;
+}
+
+
+.starterblue {
+	font-size:16px;
+	line-height: 24px;
+	color:#274967;
+}
 
 #inquire a {
 	color: #999999;
@@ -671,9 +683,28 @@ li.image_rollover_two a .rollover {
 	margin: 10px;
 	
 }
+
 #blogimage {
 	padding-bottom: 10px;
 	padding-top: 15px;
+}
+
+#blogimage_h {
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+
+#blogimage_v {
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+
+#blogimage_v img {
+	height:455px; 
+}
+
+#blogimage_h img {
+	width:480px;
 }
 
 .entry {
