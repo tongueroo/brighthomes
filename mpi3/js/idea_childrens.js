@@ -2,6 +2,7 @@ jQuery(document).ready(function($) {
 	// We only want these styles applied when javascript is enabled
 	$('div.imagenavigation').css({'width' : '200px', 'float' : 'left'});
 	$('div.imagecontent').css('display', 'block');
+	
 
 	// Initially set opacity on thumbs and add
 	// additional styling for hover effect on thumbs
@@ -16,11 +17,11 @@ jQuery(document).ready(function($) {
 	// Initialize Advanced Galleriffic Gallery
 	var gallery = $('#thumbs').galleriffic({
 		delay:                     2500,
-		numThumbs:                 10,
-		preloadAhead:              10,
+		numThumbs:                 12,
+		preloadAhead:              12,
 		enableTopPager:            true,
 		enableBottomPager:         true,
-		maxPagesToShow:            7,
+		maxPagesToShow:            10,
 		imageContainerSel:         '#slideshow',
 		controlsContainerSel:      '#controls',
 		captionContainerSel:       '#caption',
@@ -36,7 +37,7 @@ jQuery(document).ready(function($) {
 		enableHistory:             true,
 		autoStart:                 false,
 		syncTransitions:           true,
-		defaultTransitionDuration: 1000,
+		defaultTransitionDuration: 900,
 		onSlideChange:             function(prevIndex, nextIndex) {
 			// 'this' refers to the gallery, which is an extension of $('#thumbs')
 			this.find('ul.thumbs').children()

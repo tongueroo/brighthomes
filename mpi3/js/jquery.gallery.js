@@ -919,7 +919,7 @@
 				// 	});
 				
 				this.$controlsContainer
-					.append('<div class="nav-controls"><a href="idearoom">Return to Idea Room</a></div>');
+					.append('<div class="nav-controls"><a href="gallery">Return to Gallery</a></div>');
 			}
 		}
 

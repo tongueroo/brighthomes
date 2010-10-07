@@ -33,7 +33,7 @@
             <li <?php current_class("about"); ?>><a class="about" rel="#8d5917" href="about">About</a></li>
             <li <?php current_class("services"); ?>><a class="services" rel="#274967" href="services">Services</a></li>
             <li <?php current_class("ourwork"); ?>><a class="ourwork" rel="#ab4c20" href="ourwork">Our Work</a></li>
-            <li <?php current_class("news"); ?>><a class="news" rel="#593e29" href="news">News</a></li>
+            <li <?php current_class("news"); ?>><a class="news" rel="#593e29" href="http://www.martinperri.com/news">News</a></li>
        	  </ul>
       </div>
 		<div id="inquire"><a href="inquire">INQUIRE</a></div>

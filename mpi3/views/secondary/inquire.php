@@ -1,16 +1,20 @@
 <div id="content">
 	<div id="fullcolumn">
 		<p>
-			Peruse twelve pages filled with photographs of our most distinctive work, plus a full description<br />
-		  of our design philosophy, our team approach, our customer service ethic and our full range of design and remodeling services.		</p>
-  <p>
-			Call us at 1-800-515-1156 or 925-735-9718 to request a copy, or use the form below. (all fields required)
+			   	
+
+Our brochure and portfolio CD are filled with nearly one hundred photographs of residential<br />
+design projects recently completed by the Martin Perri Interiors team. They will inspire you and<br />
+introduce you to our full range of experience and creative services.	</p>
+<p>
+			Please complete this form and submit, or call us at
+1-800-515-1156. (all fields required)
 		</p>
 		<h2>
-			Mail Brochure to:
+			Mail Brochure and CD to:
 		</h2>
              <div id="formwrapper">
-	  <form name="request" method="post" action="brochure_actions.php" onsubmit="return validateForm(this);" id="request">
+	  <form name="request" method="post" action="brochure_actions" onsubmit="return validateForm(this);" id="request">
 			<input type="hidden" name="recipient">
 			
        

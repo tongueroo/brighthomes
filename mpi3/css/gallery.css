@@ -12,26 +12,43 @@ div.imagecontent a, div.imagenavigation a {
 div.imagecontent a:focus, div.imagecontent a:hover, div.imageimagecontent a:active {
 	text-decoration: underline;
 }
-div.controls {
+
+#topgallerycontainer {
 	margin-top: 5px;
 	height: 23px;
 	border-bottom-color:#999999;
 	border-bottom-width: thin;
 	border-bottom-style: solid;
+
+}
+
+div.controls {
+	float:right;
+}
+
+
+.galleryname {
+	float:left;
+	color:#333333;
+	font-weight:bold;
+
 }
 div.controls a {
 	padding: 5px;
 }
 div.ss-controls {
-	float: left;
+	float: right;
 }
 div.nav-controls {
-	float: right;
+	float: left;
+	border-right-color:#999999;
+	border-right-width: thin;
+	border-right-style: solid;
 }
 div.slideshow-container {
 	position: relative;
 	clear: both;
-	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 503px; /* This should be set to be at least the height of the largest image in the slideshow */
 	margin-top: 15px;
 
 }
@@ -39,11 +56,11 @@ div.loader {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url('loader.gif');
+	background-image: url(../images/loader.gif);
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 700px;
-	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 503px; /* This should be set to be at least the height of the largest image in the slideshow */
 }
 div.slideshow {
 
@@ -57,8 +74,8 @@ div.slideshow span.image-wrapper {
 div.slideshow a.advance-link {
 	display: block;
 	width: 700px;
-	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
-	line-height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 503px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 503px; /* This should be set to be at least the height of the largest image in the slideshow */
 	text-align: center;
 }
 div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {

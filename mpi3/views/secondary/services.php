@@ -20,7 +20,7 @@
 					Furnishings
 				</h3>
 				<ul>
-					<li>Upholestry</li>
+					<li>Upholstery </li>
 					<li>Window Treatments</li>
 					<li>Occasional Furnishings</li>
 					<li>Custom Bedding </li>
@@ -33,7 +33,8 @@
 			<img src="../images/services_image2.jpg">
 			<div class="cover boxcaption">
 				<h3>
-					Architectural Detailing
+					Architectural<br />
+Detailing
 				</h3>
 				<ul>
 					<li>Pre-Construction Planning</li>
@@ -47,7 +48,8 @@
 			<img src="../images/services_image3.jpg">
 			<div class="cover boxcaption">
 				<h3>
-					Specialty Design Services</h3>
+					Specialty<br />
+Design Services</h3>
 		  <ul>
 					<li>Cabinetry Design</li>
 					<li>Custom Furnishings</li>
@@ -77,4 +79,4 @@
 </div>
 
 <script type="text/javascript" src="../js/services.js"></script>
-<script type="text/javascript" src="../js/stretch.js"></script>
+<script type="text/javascript" src="../js/stretch_services.js"></script>

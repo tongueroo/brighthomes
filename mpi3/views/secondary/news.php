@@ -57,9 +57,9 @@ Wis adion ulputem quipis alis dio core doloreros er se velendre molut lobor at. 
             
             <div class="featuredarticles">
             	<div class="blogsideheadline">featured articles</div>
-            	<div class="articleimg"><a href="#"><img src="../images/article01.jpg" alt="aetuts" width="160" height="207" border="0" class="img" /></a><br />Blackhawk Residence</div>
-                <div class="articleimg"><a href="#"><img src="../images/article02.jpg" alt="aetuts" width="160" height="207" border="0" class="img" /></a><br />Benicia Residence</div>
-                <div class="articleimg"><a href="#"><img src="../images/article03.jpg" alt="aetuts" width="160" height="207" border="0" class="img" /></a><br />Danville Residence</div>
+            	<div class="articleimg"><a href="../docs/blackhawk_web.pdf"><img src="../images/article01.jpg" alt="aetuts" width="160" height="207" border="0" class="img" /></a><br />Blackhawk Residence</div>
+                <div class="articleimg"><a href="../docs/benicia_web.pdf"><img src="../images/article02.jpg" alt="aetuts" width="160" height="207" border="0" class="img" /></a><br />Benicia Residence</div>
+                <div class="articleimg"><a href="../docs/danville_web.pdf"><img src="../images/article03.jpg" alt="aetuts" width="160" height="207" border="0" class="img" /></a><br />Danville Residence</div>
   			</div>  
 
             </div>
@@ -67,5 +67,5 @@ Wis adion ulputem quipis alis dio core doloreros er se velendre molut lobor at. 
         </div>
 	</div>
 </div>
-<script type="text/javascript" src="../js/stretch.js"></script>
+<script type="text/javascript" src="../js/stretch_news.js"></script>
 <script type="text/javascript" src="../js/fade_custom.js"></script>

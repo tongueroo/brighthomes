@@ -17,10 +17,10 @@
 				</div></a>
 			</div>
 			<div class="work caption2">
-				<img src="../images/idearoom.jpg"> <a href="idearoom"></a>
-				<a href="idearoom"><div class="coverall boxcaption2">
+				<img src="../images/idearoom.jpg"> <a href="gallery"></a>
+				<a href="gallery"><div class="coverall boxcaption2">
 					<h3>
-						Idea Room
+						Gallery
 					</h3>
 					<p>
 						Lenisl illa autpatet ullaor ing eugait nullandiam, con er adigna aliquat, veniscidunt Putpatueros nim zzriustin hent volore vullan vendre delesendiam aci blaore dignit ut laore modio er auguer in ent aute dolortie miniat alisi blaorem vel dit, conullam.
@@ -33,4 +33,4 @@
 </div>
 
 <script type="text/javascript" src="../js/ourwork.js"></script>
-<script type="text/javascript" src="../js/stretch.js"></script>
+<script type="text/javascript" src="../js/stretch_work.js"></script>

@@ -1,6 +1,6 @@
 #navcontainer {
 	float: right;
-	width: 750px;
+	width: 760px;
 }
 
 #nav-wrap {
@@ -10,7 +10,7 @@
 	background-position: bottom;
 	margin-right: 0px;
 	margin-left: 0px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	padding-top: 0px;
@@ -18,6 +18,14 @@
 	padding-left: 0px;
 	width: 520px;
 }
+
+
+
+.ie67 #nav-wrap {
+	margin-left: 40px;
+}
+
+
 	#nav {
 		list-style: none;
 		position: relative;
@@ -37,7 +45,7 @@
 		font-size: 12px;
 		display: block;
 		float: left;
-		padding: 6px 0px 4px 0px;
+		padding: 6px 0px 3px 0px;
 		text-decoration: none;
 		font-family: Arial, Helvetica, sans-serif;
 		width: 120px;
@@ -79,3 +87,4 @@
 	}
 
 	#nav .current a { color: white !important; }
+

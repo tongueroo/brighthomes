@@ -1,4 +1,9 @@
-<div id="content">
+<!-- We only want the thunbnails to display when javascript is disabled -->
+		<script type="text/javascript">
+			document.write('<style>.noscript { display: none; }</style>');
+		</script>
+        
+        <div id="content">
 	<div class="fullcolumn">
     
 		<div id="gallery" class="imagecontent">
@@ -68,7 +73,7 @@
 				<div style="clear: both;"></div>
 			</div>
 		</div>
-		
+<script type="text/javascript" src="../js/idea_childrens.js"></script>	
         
 <script type="text/javascript" src="../js/galleryjush.js"></script>
 <script type="text/javascript" src="../js/jquery.gallery.js"></script>
@@ -77,4 +82,3 @@
 <link href="../css/gallery.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../js/stretch.js"></script>
 
-<script type="text/javascript" src="../js/idea_childrens.js"></script>

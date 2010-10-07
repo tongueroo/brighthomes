@@ -27,6 +27,6 @@
 			
 		</p>
 	</div>
-	<div id="rightcontent"></div>
+	<div id="rightcontent"><div class="martinphoto"><img src="../images/martinphoto.jpg" alt="Martin Perri" /></div></div>
 </div>
 <script type="text/javascript" src="../js/stretch.js"></script>
