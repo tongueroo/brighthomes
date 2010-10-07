@@ -14,7 +14,7 @@ introduce you to our full range of experience and creative services.	</p>
 			Mail Brochure and CD to:
 		</h2>
              <div id="formwrapper">
-	  <form name="request" method="post" action="brochure_actions" onsubmit="return validateForm(this);" id="request">
+	  <form name="request" method="post" action="/mpi3/php_scripts/brochure_actions.php" onsubmit="return validateForm(this);" id="request">
 			<input type="hidden" name="recipient">
 			
        
