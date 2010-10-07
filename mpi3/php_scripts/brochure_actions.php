@@ -69,6 +69,6 @@
 
 	mail($toMail, $subject, $msg, 'From: '.$fromEmail."\r\n");
 
-	header("Location: brochure_confirm");
+	header("Location: ../secondary/brochure_confirm");
 	exit();
 ?>

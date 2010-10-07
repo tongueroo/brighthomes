@@ -1,3 +1,4 @@
 <?php
-  echo 'test';
+  header("Location: ../secondary/brochure_confirm");
+	exit();
 ?>
